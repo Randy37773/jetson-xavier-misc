@@ -21,6 +21,10 @@ https://pythops.com/post/compile-deeplearning-libraries-for-jetson-nano
 https://github.com/Randy37773/jetson-xavier-misc/tree/main/opencv-cuda/logs
 
 
+jetson-drect rdma support
+https://forums.developer.nvidia.com/t/is-gpu-direct-rdma-supported-on-xavier-solved/65669/7
+
+
 jetson-recover
 https://elinux.org/Jetson/AGX_Xavier_Alternative_II_For_Cloning
 https://elinux.org/Jetson/Clone
@@ -47,3 +51,28 @@ https://forums.developer.nvidia.com/t/cross-compile-opencv-successfully-but-run-
 
 jetson-ximea-opencv-cuda
 https://forums.developer.nvidia.com/t/ximea-opencv-and-cuda-dont-work-together-as-they-should/161064/18
+
+
+ximea
+https://www.ximea.com/downloads/usb3/manuals/xiq_technical_manual.pdf
+https://www.ximea.com/downloads/usb3/manuals/xiq_technical_manual.pdf#%5B%7B%22num%22%3A262%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C54%2C744%2C0%5D
+https://www.ximea.com/support/wiki/vision-libraries/OpenCV#OpenCV
+https://www.ximea.com/support/wiki/apis/Python
+https://www.ximea.com/support/wiki/allprod/Knowledge_Base
+https://www.ximea.com/support/wiki/apis/xiapi_manual
+https://www.ximea.com/support/wiki/apis/XiAPI_Image_Data_Flow
+https://www.ximea.com/support/wiki/apis/XiAPI_GPUDirect
+https://docs.nvidia.com/cuda/gpudirect-rdma/
+https://www.ximea.com/support/wiki/allprod/Transport_Data_Packing
+
+
+python
+https://stackoverflow.com/questions/31384639/what-is-pythons-site-packages-directory
+https://stackoverflow.com/questions/64180324/how-to-install-a-python-package-via-pip-in-site-packages-of-specific-python-inst
+https://stackoverflow.com/questions/65808972/defaulting-to-user-installation-because-normal-site-packages-is-not-writeable
+https://stackoverflow.com/questions/61222362/cant-open-lib-usr-local-lib-libmsodbcsql-13-dylib-file-not-found-but-fil
+
+bash
+https://stackoverflow.com/questions/7131670/make-a-bash-alias-that-takes-a-parameter
+https://www.cyberciti.biz/faq/create-permanent-bash-alias-linux-unix/
+https://linuxize.com/post/how-to-create-bash-aliases/
