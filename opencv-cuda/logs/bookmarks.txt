@@ -1,0 +1,37 @@
+Contact Informations For support requests: support@forecr.io  +90 312 484 85 76
+
+https://hs.forecr.io/hubfs/DATASHEETS/dsbox-nx2-datasheet-v1.0.pdf
+https://www.forecr.io/blogs/getting-started/dsbox-nx2-getting-started
+
+
+
+opencv-cuda
+https://stackoverflow.com/questions/15291500/i-have-2-versions-of-python-installed-but-cmake-is-using-older-version-how-do
+https://forums.developer.nvidia.com/t/opencv-cuda-python3-bindings/219019
+https://forums.developer.nvidia.com/t/opencv-4-5-2-with-cuda-on-drive-px2-compilation-and-installation-guide/216877
+
+jetson-recover
+https://elinux.org/Jetson/AGX_Xavier_Alternative_II_For_Cloning
+https://elinux.org/Jetson/Clone
+https://forums.developer.nvidia.com/t/is-it-true-that-the-so-called-copying-the-app-partition-means-copying-the-entire-nano/154290
+https://www.forecr.io/blogs/bsp-development/how-to-clone-emmc-image-of-nvidia-jetson-xavier-nx-module
+https://github.com/e-lab/tutorials/blob/master/Recover-filesystem-on-Jeson-TK1.md
+
+https://www.forecr.io/blogs/installation/jetpack-4-5-update-for-forecr-products-based-on-nvidia-jetson-xavier-nx
+https://www.forecr.io/blogs/installation/jetpack-4-6-1-installation-for-dsbox-nx2
+
+
+
+
+gstreamer
+https://forums.developer.nvidia.com/t/problem-when-i-use-opencv-python-with-pipeline-gstreamer-to-accelerate-stream-video-mp4-file/191315
+
+video-stream (rtsp, udp, rtp)
+https://forums.developer.nvidia.com/t/how-to-stream-camera-by-udp-h264/167666
+
+cross-compiling
+https://forums.developer.nvidia.com/t/cross-compiler-opencv-application-with-cuda-always-failed-in-cmake/81449/9
+https://forums.developer.nvidia.com/t/cross-compile-opencv-successfully-but-run-sample-failed/77842
+
+jetson-ximea-opencv-cuda
+https://forums.developer.nvidia.com/t/ximea-opencv-and-cuda-dont-work-together-as-they-should/161064/18
