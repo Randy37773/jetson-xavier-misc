@@ -19,9 +19,10 @@ https://forums.developer.nvidia.com/t/jetpack-4-6-unable-to-compile-opencv-4-1-1
 https://forums.developer.nvidia.com/t/install-opencv-for-python3-in-jetson-nano/74042/30
 https://pythops.com/post/compile-deeplearning-libraries-for-jetson-nano
 https://github.com/Randy37773/jetson-xavier-misc/tree/main/opencv-cuda/logs
+https://forums.developer.nvidia.com/t/ximea-opencv-and-cuda-dont-work-together-as-they-should/161064/18
 
 
-jetson-drect rdma support
+jetson-direct rdma support
 https://forums.developer.nvidia.com/t/is-gpu-direct-rdma-supported-on-xavier-solved/65669/7
 
 
@@ -42,12 +43,15 @@ https://www.forecr.io/blogs/getting-started/dsbox-nx2-getting-started
 gstreamer
 https://forums.developer.nvidia.com/t/problem-when-i-use-opencv-python-with-pipeline-gstreamer-to-accelerate-stream-video-mp4-file/191315
 
+
 video-stream (rtsp, udp, rtp)
 https://forums.developer.nvidia.com/t/how-to-stream-camera-by-udp-h264/167666
+
 
 cross-compiling
 https://forums.developer.nvidia.com/t/cross-compiler-opencv-application-with-cuda-always-failed-in-cmake/81449/9
 https://forums.developer.nvidia.com/t/cross-compile-opencv-successfully-but-run-sample-failed/77842
+
 
 jetson-ximea-opencv-cuda
 https://forums.developer.nvidia.com/t/ximea-opencv-and-cuda-dont-work-together-as-they-should/161064/18
@@ -71,6 +75,7 @@ https://stackoverflow.com/questions/31384639/what-is-pythons-site-packages-direc
 https://stackoverflow.com/questions/64180324/how-to-install-a-python-package-via-pip-in-site-packages-of-specific-python-inst
 https://stackoverflow.com/questions/65808972/defaulting-to-user-installation-because-normal-site-packages-is-not-writeable
 https://stackoverflow.com/questions/61222362/cant-open-lib-usr-local-lib-libmsodbcsql-13-dylib-file-not-found-but-fil
+
 
 bash
 https://stackoverflow.com/questions/7131670/make-a-bash-alias-that-takes-a-parameter
