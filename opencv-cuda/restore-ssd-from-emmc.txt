@@ -1,0 +1,25 @@
+This is the [guide from support](https://github.com/Randy37773/jetson-xavier-misc/blob/main/opencv-cuda/logs/Jetson-Xavier-recover-SSD-from-eMMC.pdf) - untested.
+
+It worked for me, to restore my SSD-file-system from eMMC within 15 minutes.
+
+I use `nano` to edit conf-files in terminal
+(doing backup-copies before modifying is always a good idea)
+
+* `df -h` confirm that SSD is mounted at `/` (root)
+* `sudo nano /boot/extlinux/extlinux.conf`
+   * change: `root=/dev/nvme0n1p1` ->  `root=/dev/mmcblk0p1` 
+* filemanager: find path for internal storage (<path-to-emmc>) 
+   *  `sudo nano <path-to-emmc>/boot/extlinux/extlinux.conf`
+      * change: `root=/dev/nvme0n1p1` -> `root=/dev/mmcblk0p1` 
+* sudo reboot
+  * `df -h`  confirm, that eMMC is now mounted at `/` 
+*  format SSD  ext4 (e.g. via gnome-disks - quick-format)
+	* sudo reboot
+  * `df -h`  confirm, that eMMC is now mounted at `/` 
+*  format SSD  ext4 (e.g. via gnome-disks - quick-format)
+  * volue name `rootFS`, internal disk for use with lunux systems only (ext4)
+* download and extract [this zipped script](https://github.com/mistelektronik/forecr_blog_files/raw/master/change_rootfs_storage_direct-emmc_to_ssd.zip) 
+  * the script uses `rsync` to copy and then undoes the manual modifications in the conf-files
+* `sudo ./change_rootfs_storage_direct-emmc_to_ssd.sh /dev/nvme0n1p1` ... some minutes
+* `sudo reboot` 
+* `df  -h`  to check if ssd is correctly mounted as `/` again
