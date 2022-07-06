@@ -81,3 +81,7 @@ bash
 https://stackoverflow.com/questions/7131670/make-a-bash-alias-that-takes-a-parameter
 https://www.cyberciti.biz/faq/create-permanent-bash-alias-linux-unix/
 https://linuxize.com/post/how-to-create-bash-aliases/
+
+
+cmake update
+https://forums.developer.nvidia.com/t/having-problems-updating-cmake-on-xavier-nx/169265
