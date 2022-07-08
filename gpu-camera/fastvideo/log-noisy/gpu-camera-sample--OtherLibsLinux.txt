@@ -1,0 +1,1274 @@
+OtherLibsLinux/:
+total 4
+4 drwxrwxr-x 9 nvidia nvidia 4096 Jul  6 12:53 FastvideoSDK
+
+OtherLibsLinux/FastvideoSDK:
+total 116896
+     4 drwxr-xr-x  2 nvidia nvidia      4096 Jul  6 12:22 bin
+     4 drwxr-xr-x  3 nvidia nvidia      4096 Jul  6 12:22 common
+     4 drwxr-xr-x  6 nvidia nvidia      4096 Jul  6 12:22 core_samples
+     4 drwxr-xr-x  6 nvidia nvidia      4096 May  6 11:04 DataSet
+     4 drwxr-xr-x 23 nvidia nvidia      4096 Jul  6 12:22 fastvideo_samples
+     4 drwxr-xr-x  4 nvidia nvidia      4096 May  6 11:07 fastvideo_sdk
+116868 -rwx------  1 nvidia nvidia 119666218 Jul  6 11:56 fvSDK.0.17.6.1.arm64.libc.2.27.CUDA.10.2.Demo.exp-2023-05-08.tar.gz
+     4 drwxr-xr-x  6 nvidia nvidia      4096 Jul  6 12:22 libs
+
+OtherLibsLinux/FastvideoSDK/bin:
+total 101164
+12152 -rw-r--r-- 1 nvidia nvidia 12441618 May 11 10:38 2k_wild.1920x1080.12.RGGB.DFPD.ppm
+12152 -rw-r--r-- 1 nvidia nvidia 12441618 May 11 10:38 2k_wild.1920x1080.12.RGGB.HQLI.ppm
+12152 -rw-r--r-- 1 nvidia nvidia 12441618 May 11 10:38 2k_wild.1920x1080.12.RGGB.MG.ppm
+ 4052 -rw-r--r-- 1 nvidia nvidia  4147218 May 11 10:38 2k_wild.1920x1080.12.RGGB.pgm
+ 3040 -rw-r--r-- 1 nvidia nvidia  3110417 May 11 10:38 2k_wild.1920x1080.16.RGGB.Binning2x2.ppm
+  760 -rw-r--r-- 1 nvidia nvidia   777617 May 11 10:38 2k_wild.1920x1080.16.RGGB.Binning4x4.ppm
+  192 -rw-r--r-- 1 nvidia nvidia   194417 May 11 10:38 2k_wild.1920x1080.16.RGGB.Binning8x8.ppm
+12152 -rw-r--r-- 1 nvidia nvidia 12441619 May 11 10:38 2k_wild.1920x1080.16.RGGB.L7.ppm
+ 4052 -rw-r--r-- 1 nvidia nvidia  4147219 May 11 10:38 2k_wild.1920x1080.16.RGGB.pgm
+ 6076 -rw-r--r-- 1 nvidia nvidia  6220817 May 11 10:38 2k_wild.1920x1080.BGGR.Default.ppm
+ 2028 -rw-r--r-- 1 nvidia nvidia  2073617 May 11 10:38 2k_wild.1920x1080.BGGR.pgm
+ 8104 -rw-r--r-- 1 nvidia nvidia  8294414 May 11 10:38 2k_wild.1920x1080.MatrixA.1.1.pfm
+ 6076 -rw-r--r-- 1 nvidia nvidia  6220817 May 11 10:38 2k_wild.1920x1080.RGGB.DFPD.MultiThread.ppm
+ 6076 -rw-r--r-- 1 nvidia nvidia  6220817 May 11 10:38 2k_wild.1920x1080.RGGB.HQLI.ppm
+ 6076 -rw-r--r-- 1 nvidia nvidia  6220817 May 11 10:38 2k_wild.1920x1080.RGGB.MatrixA.1.1.ppm
+ 2028 -rw-r--r-- 1 nvidia nvidia  2073617 May 11 10:38 2k_wild.1920x1080.RGGB.pgm
+  156 -rwxr-xr-x 1 nvidia nvidia   157456 May 11 08:57 BayerCompressionSample
+    4 -rwxrwxr-x 1 nvidia nvidia     1054 May  3 15:42 BayerCompressionSample.sh
+  156 -rwxr-xr-x 1 nvidia nvidia   156456 May 11 08:58 CameraMultiSample
+    4 -rwxrwxr-x 1 nvidia nvidia     1368 May  3 15:42 CameraMultiSample.sh
+  168 -rwxr-xr-x 1 nvidia nvidia   169464 May 11 08:58 CameraSample
+    4 -rwxrwxr-x 1 nvidia nvidia     1136 May  3 15:42 CameraSample.sh
+  548 -rwxr-xr-x 1 nvidia nvidia   558848 May 11 08:59 ComponentsSample
+    8 -rwxrwxr-x 1 nvidia nvidia     6506 May  3 15:42 ComponentsSample.sh
+    4 -rwxrwxr-x 1 nvidia nvidia       65 May  3 15:42 Configuration.sh
+  136 -rwxr-xr-x 1 nvidia nvidia   138120 May 11 09:00 DebayerJpegSample
+    4 -rwxrwxr-x 1 nvidia nvidia      737 May  3 15:42 DebayerJpegSample.sh
+    8 -rw-r--r-- 1 nvidia nvidia     5242 May 11 10:38 debayer.log
+  208 -rwxr-xr-x 1 nvidia nvidia   210424 May 11 09:00 DebayerSample
+    4 -rwxrwxr-x 1 nvidia nvidia     2030 May  3 15:42 DebayerSample.sh
+  112 -rwxr-xr-x 1 nvidia nvidia   110776 May 11 09:00 DenoiseSample
+    4 -rwxrwxr-x 1 nvidia nvidia      616 May  3 15:42 DenoiseSample.sh
+  144 -rwxr-xr-x 1 nvidia nvidia   146400 May 11 09:01 FfmpegSample
+    4 -rwxrwxr-x 1 nvidia nvidia      492 May  3 15:42 FfmpegSample.sh
+  108 -rwxr-xr-x 1 nvidia nvidia   106552 May 11 09:04 HistogramSample
+    4 -rwxrwxr-x 1 nvidia nvidia     1898 May  3 15:42 HistogramSample.sh
+  132 -rwxr-xr-x 1 nvidia nvidia   134416 May 11 09:01 ImageConverterSample
+  260 -rwxr-xr-x 1 nvidia nvidia   265064 May 11 09:04 J2KDecoderSample
+    4 -rwxrwxr-x 1 nvidia nvidia      891 May  3 15:42 J2KDecoderSample.Performance.sh
+    4 -rwxrwxr-x 1 nvidia nvidia      739 May  3 15:42 J2KDecoderSample.sh
+  252 -rwxr-xr-x 1 nvidia nvidia   255328 May 11 09:05 J2KEncoderSample
+    4 -rwxrwxr-x 1 nvidia nvidia      996 May  3 15:42 J2KEncoderSample.Performance.sh
+    4 -rwxrwxr-x 1 nvidia nvidia     2116 May  3 15:42 J2KEncoderSample.sh
+  264 -rwxr-xr-x 1 nvidia nvidia   269920 May 11 09:03 Jpeg2JpegSample
+    4 -rwxrwxr-x 1 nvidia nvidia     1252 May  3 15:42 Jpeg2JpegSample.sh
+  140 -rwxr-xr-x 1 nvidia nvidia   140848 May 11 09:01 JpegAsyncSample
+    4 -rwxrwxr-x 1 nvidia nvidia      143 May  3 15:42 JpegAsyncSample.sh
+  368 -rwxr-xr-x 1 nvidia nvidia   374856 May 11 09:02 JpegSample
+    4 -rwxrwxr-x 1 nvidia nvidia      565 May  3 15:42 JpegSample.Performance.sh
+    4 -rwxrwxr-x 1 nvidia nvidia     1309 May  3 15:42 JpegSample.sh
+    0 lrwxrwxrwx 1 nvidia nvidia       49 May  6 11:08 libavcodec.so.58 -> ../libs/ffmpeg/lib/linux/aarch64/libavcodec.so.58
+    0 lrwxrwxrwx 1 nvidia nvidia       50 May  6 11:08 libavformat.so.58 -> ../libs/ffmpeg/lib/linux/aarch64/libavformat.so.58
+    0 lrwxrwxrwx 1 nvidia nvidia       48 May  6 11:08 libavutil.so.56 -> ../libs/ffmpeg/lib/linux/aarch64/libavutil.so.56
+    0 lrwxrwxrwx 1 nvidia nvidia       47 May  6 11:08 libexif.so.12 -> ../libs/libexif/lib/linux/aarch64/libexif.so.12
+    0 lrwxrwxrwx 1 nvidia nvidia       31 May 11 07:09 libfastvideo_decoder_j2k.so -> ./libfastvideo_decoder_j2k.so.5
+    4 lrwxrwxrwx 1 nvidia nvidia       66 May 11 07:09 libfastvideo_decoder_j2k.so.5 -> ./../fastvideo_sdk/lib/libfastvideo_decoder_j2k.so.7.0.0.1.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       31 May 11 07:07 libfastvideo_encoder_j2k.so -> ./libfastvideo_encoder_j2k.so.2
+    4 lrwxrwxrwx 1 nvidia nvidia       66 May 11 07:07 libfastvideo_encoder_j2k.so.2 -> ./../fastvideo_sdk/lib/libfastvideo_encoder_j2k.so.3.1.0.0.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       36 May 11 07:10 libfastvideo_j2kFfmpegWrapper.so -> ./libfastvideo_j2kFfmpegWrapper.so.2
+    4 lrwxrwxrwx 1 nvidia nvidia       71 May 11 07:10 libfastvideo_j2kFfmpegWrapper.so.2 -> ./../fastvideo_sdk/lib/libfastvideo_j2kFfmpegWrapper.so.1.0.0.0.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       34 May 11 07:09 libfastvideo_jpegCpuDecoder.so -> ./libfastvideo_jpegCpuDecoder.so.2
+    4 lrwxrwxrwx 1 nvidia nvidia       69 May 11 07:09 libfastvideo_jpegCpuDecoder.so.2 -> ./../fastvideo_sdk/lib/libfastvideo_jpegCpuDecoder.so.1.0.0.0.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       25 May 11 07:09 libfastvideo_mjpeg.so -> ./libfastvideo_mjpeg.so.3
+    4 lrwxrwxrwx 1 nvidia nvidia       60 May 11 07:09 libfastvideo_mjpeg.so.3 -> ./../fastvideo_sdk/lib/libfastvideo_mjpeg.so.1.0.0.0.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       29 May 11 07:05 libfastvideo_nppFilter.so -> ./libfastvideo_nppFilter.so.2
+    4 lrwxrwxrwx 1 nvidia nvidia       64 May 11 07:05 libfastvideo_nppFilter.so.2 -> ./../fastvideo_sdk/lib/libfastvideo_nppFilter.so.1.0.1.1.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       31 May 11 07:05 libfastvideo_nppGeometry.so -> ./libfastvideo_nppGeometry.so.2
+    4 lrwxrwxrwx 1 nvidia nvidia       66 May 11 07:05 libfastvideo_nppGeometry.so.2 -> ./../fastvideo_sdk/lib/libfastvideo_nppGeometry.so.1.1.0.0.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       29 May 11 07:05 libfastvideo_nppResize.so -> ./libfastvideo_nppResize.so.2
+    4 lrwxrwxrwx 1 nvidia nvidia       64 May 11 07:05 libfastvideo_nppResize.so.2 -> ./../fastvideo_sdk/lib/libfastvideo_nppResize.so.1.0.1.0.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       29 May 11 07:05 libfastvideo_nppRotate.so -> ./libfastvideo_nppRotate.so.2
+    4 lrwxrwxrwx 1 nvidia nvidia       64 May 11 07:05 libfastvideo_nppRotate.so.2 -> ./../fastvideo_sdk/lib/libfastvideo_nppRotate.so.1.0.1.0.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       24 May 11 07:04 libfastvideo_sdk.so -> ./libfastvideo_sdk.so.18
+    0 lrwxrwxrwx 1 nvidia nvidia       59 May 11 07:04 libfastvideo_sdk.so.18 -> ./../fastvideo_sdk/lib/libfastvideo_sdk.so.0.17.6.1.0170601
+    4 lrwxrwxrwx 1 nvidia nvidia       62 May  6 11:08 libjpeg12.so.62 -> ../libs/libjpeg-turbo/12-bit/lib/linux/aarch64/libjpeg12.so.62
+    4 lrwxrwxrwx 1 nvidia nvidia       66 May 11 07:09 libjpeg.so -> ./../libs/libjpeg-turbo/12-bit/lib/linux/aarch64/libjpeg.so.62.3.0
+    4 lrwxrwxrwx 1 nvidia nvidia       66 May 11 07:09 libjpeg.so.62 -> ./../libs/libjpeg-turbo/12-bit/lib/linux/aarch64/libjpeg.so.62.3.0
+    0 lrwxrwxrwx 1 nvidia nvidia       59 May  6 11:08 libjpeg.so.8 -> ../libs/libjpeg-turbo/08-bit/lib/linux/aarch64/libjpeg.so.8
+    0 lrwxrwxrwx 1 nvidia nvidia       51 May  6 11:08 libswresample.so.3 -> ../libs/ffmpeg/lib/linux/aarch64/libswresample.so.3
+    0 lrwxrwxrwx 1 nvidia nvidia       12 May 11 09:05 libtiff.so -> libtiff.so.5
+    0 lrwxrwxrwx 1 nvidia nvidia       50 May 11 09:05 libtiff.so.5 -> ../libs/libtiff/lib/linux/aarch64/libtiff.so.5.7.0
+    0 lrwxrwxrwx 1 nvidia nvidia       41 May  6 11:08 libusb.so -> /lib/x86_64-linux-gnu/libusb-0.1.so.4.4.4
+   64 -rw-r--r-- 1 nvidia nvidia    64522 May 11 10:38 MtDebayerSampleTrace.log
+  116 -rwxr-xr-x 1 nvidia nvidia   116648 May 11 09:02 MuxSample
+    4 -rwxrwxr-x 1 nvidia nvidia      405 May  3 15:42 MuxSample.sh
+  152 -rwxr-xr-x 1 nvidia nvidia   151624 May 11 09:05 NppSample
+    4 -rwxrwxr-x 1 nvidia nvidia     1936 May  3 15:42 NppSample.sh
+  104 -rwxr-xr-x 1 nvidia nvidia   106224 May 11 09:03 RawImportSample
+    4 -rwxrwxr-x 1 nvidia nvidia      629 May  3 15:42 RawImportSample.sh
+  112 -rwxr-xr-x 1 nvidia nvidia   110608 May 11 09:03 ResizeSample
+    4 -rwxrwxr-x 1 nvidia nvidia     1014 May  3 15:42 ResizeSample.sh
+  140 -rwxr-xr-x 1 nvidia nvidia   141640 May 11 09:03 SDIConverterSample
+    8 -rwxrwxr-x 1 nvidia nvidia     5672 May  3 15:42 SDIConverterSample.sh
+
+OtherLibsLinux/FastvideoSDK/common:
+total 260
+ 4 -rw-rw-r-- 1 nvidia nvidia  1440 May  3 15:42 alignment.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1850 May  3 15:42 alignment.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  3939 May  3 15:42 AutoBatch.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1298 May  3 15:42 BaseAllocator.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1329 May  6 12:18 BaseAllocator.h
+ 4 -rw-r--r-- 1 nvidia nvidia  1424 May 11 09:03 BaseAllocator.o
+ 4 -rw-rw-r-- 1 nvidia nvidia  1690 May  3 15:42 Batch.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  7856 May  3 15:42 BatchedQueue.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2594 May  3 15:42 BatchedQueue.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1528 May  3 15:42 Batch.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1789 May  3 15:42 DevAllocator.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1294 May  3 15:42 DevAllocator.h
+ 8 -rw-r--r-- 1 nvidia nvidia  5776 May 11 09:03 DevAllocator.o
+ 4 -rw-rw-r-- 1 nvidia nvidia  1966 May  3 15:42 EnumToStringCustomTransform.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1131 May  3 15:42 EnumToStringCustomTransform.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2717 May  3 15:42 EnumToStringJ2kDecoder.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1271 May  3 15:42 EnumToStringJ2kDecoder.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1391 May  3 15:42 EnumToStringJ2kEncoder.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1131 May  3 15:42 EnumToStringJ2kEncoder.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1625 May  3 15:42 EnumToStringNpp.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1372 May  3 15:42 EnumToStringNppFilter.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1126 May  3 15:42 EnumToStringNppFilter.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1413 May  3 15:42 EnumToStringNppGeometry.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1139 May  3 15:42 EnumToStringNppGeometry.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1129 May  3 15:42 EnumToStringNpp.h
+16 -rw-rw-r-- 1 nvidia nvidia 15606 May  3 15:42 EnumToStringSdk.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2258 May  3 15:42 EnumToStringSdk.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1628 May  3 15:42 FastAllocator.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1295 May  3 15:42 FastAllocator.h
+ 8 -rw-r--r-- 1 nvidia nvidia  5280 May 11 09:03 FastAllocator.o
+ 4 -rw-rw-r-- 1 nvidia nvidia  1796 May  3 15:42 FastAllocatorPinned.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  3484 May  3 15:42 FfmpegPixelFormatConvertion.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1351 May  3 15:42 FfmpegPixelFormatConvertion.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1376 May  3 15:42 HelperFFC.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1236 May  3 15:42 HelperFFC.hpp
+ 4 drwxr-xr-x 2 nvidia nvidia  4096 Jul  6 12:22 helper_jpeg
+ 4 -rw-rw-r-- 1 nvidia nvidia  1640 May  3 15:42 HelperRaw.hpp
+12 -rw-rw-r-- 1 nvidia nvidia 11995 May  3 15:42 HelperSDICommon.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  3162 May  3 15:42 HelperSDI.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  7256 May  3 15:42 HelperSDIPacked.hpp
+16 -rw-rw-r-- 1 nvidia nvidia 15894 May  3 15:42 HelperSDIPlanar.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1586 May  3 15:42 HistogramTraits.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  4531 May  3 15:42 Image.h
+ 4 -rw-rw-r-- 1 nvidia nvidia   307 May  3 15:42 JpegCommonDefines.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1392 May  3 15:42 MallocAllocator.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5085 May  3 15:42 SurfaceTraits.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  7509 May  3 15:42 SurfaceTraits.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2649 May  3 15:42 timing.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1609 May  3 15:42 timing.hpp
+ 4 -rw-r--r-- 1 nvidia nvidia  2952 May 11 09:03 timing.o
+
+OtherLibsLinux/FastvideoSDK/common/helper_jpeg:
+total 36
+ 4 -rw-rw-r-- 1 nvidia nvidia  3676 May  3 15:42 helper_jpeg.hpp
+20 -rw-rw-r-- 1 nvidia nvidia 18074 May  3 15:42 helper_jpeg_load.cpp
+12 -rw-rw-r-- 1 nvidia nvidia  9357 May  3 15:42 helper_jpeg_store.cpp
+
+OtherLibsLinux/FastvideoSDK/core_samples:
+total 292
+ 4 -rw-rw-r-- 1 nvidia nvidia  1382 May  3 15:42 AllocatorManagerInstances.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  6096 May  3 15:42 AsyncFileReader.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  4466 May  3 15:42 AsyncFileWriter.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  3172 May  3 15:42 AsyncProcessorFactory.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  4599 May  3 15:42 AsyncProcessor.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1898 May  3 15:42 AsyncReaderTaskEnqueuerFactory.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  3727 May  3 15:42 AsyncReaderTaskEnqueuer.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  5116 May  3 15:42 AsyncSingleFileReader.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1363 May  3 15:42 barrier.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1412 May  3 15:42 barrier.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  4728 May  3 15:42 BayerExifInfo.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2537 May  3 15:42 checks.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  3080 May  3 15:42 CollectionFastAllocator.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  3533 May  3 15:42 DecodeError.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1043 May  3 15:42 fast_enums.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1043 May  3 15:42 fast_types.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  6668 May  3 15:42 FfcGenerator.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1223 May  3 15:42 FfcGenerator.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  5553 May  3 15:42 FilesParameterChecker.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2463 May  3 15:42 FilesParameterChecker.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  6188 May  3 15:42 Filters.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1443 May  3 15:42 Filters.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  5917 May  3 15:42 GPU.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1255 May  3 15:42 GPU.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2646 May  3 15:42 Help.cpp
+ 4 drwxr-xr-x 2 nvidia nvidia  4096 Jul  6 12:22 helper_image
+ 4 -rw-rw-r-- 1 nvidia nvidia  1127 May  3 15:42 Help.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1207 May  3 15:42 IAsyncFileReader.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1631 May  3 15:42 IdentifySurface.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  4171 May  3 15:42 ImageFilterValidator.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1830 May  3 15:42 Init.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1231 May  3 15:42 Init.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  3472 May  3 15:42 J2kDecoderHelper.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1215 May  3 15:42 J2kDecoderHelper.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5184 May  3 15:42 J2kPrintBoxes.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1279 May  3 15:42 J2kPrintBoxes.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5147 May  3 15:42 LicenseInfoPrinter.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  4068 May  3 15:42 ManagedConstFastAllocator.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  5505 May  3 15:42 ManagedFastAllocator.hpp
+ 4 drwxr-xr-x 2 nvidia nvidia  4096 Jul  6 12:22 metrics
+ 4 -rw-rw-r-- 1 nvidia nvidia  1420 May  3 15:42 MultiThreadInfo.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  3026 May  3 15:42 MultiThreadInfoPrinter.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1181 May  3 15:42 MultiThreadInfoPrinter.h
+12 drwxr-xr-x 2 nvidia nvidia 12288 Jul  6 12:22 options
+ 4 -rw-rw-r-- 1 nvidia nvidia  1131 May  3 15:42 PluralSuffix.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1046 May  3 15:42 PreloadJ2k.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1429 May  3 15:42 PreloadJ2k.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia   768 May  3 15:42 PreloadJpeg.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1413 May  3 15:42 PreloadJpeg.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2696 May  3 15:42 PreloadUncompressedImage.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1557 May  3 15:42 PreloadUncompressedImage.hpp
+ 4 drwxr-xr-x 2 nvidia nvidia  4096 May  6 12:29 PugiXml
+ 4 -rw-rw-r-- 1 nvidia nvidia  1802 May  3 15:42 ResizeHelper.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1212 May  3 15:42 SampleTypes.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1765 May  3 15:42 StringToEnumDenoise.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1295 May  3 15:42 StringToEnumDenoise.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1599 May  3 15:42 SurfaceTraitsInternal.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1539 May  3 15:42 SurfaceTraitsInternal.hpp
+
+OtherLibsLinux/FastvideoSDK/core_samples/helper_image:
+total 188
+ 4 -rw-rw-r-- 1 nvidia nvidia 2945 May  3 15:42 BayerImageResize.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1265 May  3 15:42 BayerImageResize.h
+ 8 -rw-rw-r-- 1 nvidia nvidia 7980 May  3 15:42 bmp.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2228 May  3 15:42 bmp.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia 6536 May  3 15:42 cube.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1948 May  3 15:42 cube.h
+ 4 -rw-rw-r-- 1 nvidia nvidia 2672 May  3 15:42 DumpImage.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1300 May  3 15:42 DumpImage.h
+ 4 -rw-rw-r-- 1 nvidia nvidia 2559 May  3 15:42 helper_bmp.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1646 May  3 15:42 helper_bytestream.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia 4535 May  3 15:42 helper_bytestream.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 3639 May  3 15:42 helper_common.h
+ 8 -rw-rw-r-- 1 nvidia nvidia 4099 May  3 15:42 helper_dir.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1350 May  3 15:42 helper_dir.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia 5158 May  3 15:42 helper_exif.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1564 May  3 15:42 helper_exif.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1272 May  3 15:42 helper_file.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1134 May  3 15:42 helper_file.hpp
+12 -rw-rw-r-- 1 nvidia nvidia 8512 May  3 15:42 helper_lut_3d.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2159 May  3 15:42 helper_lut_3d.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2048 May  3 15:42 helper_lut.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1273 May  3 15:42 helper_lut.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 3112 May  3 15:42 helper_pfm.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1495 May  3 15:42 helper_pfm.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2236 May  3 15:42 helper_ppm.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1578 May  3 15:42 helper_quant_table.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1201 May  3 15:42 helper_quant_table.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2630 May  3 15:42 helper_raw.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2496 May  3 15:42 helper_tiff.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2481 May  3 15:42 helper_yuv.h
+ 8 -rw-rw-r-- 1 nvidia nvidia 6913 May  3 15:42 ppm.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1621 May  3 15:42 ppm.h
+ 4 -rw-rw-r-- 1 nvidia nvidia 2689 May  3 15:42 supported_files.cpp
+12 -rw-rw-r-- 1 nvidia nvidia 9698 May  3 15:42 supported_files.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia 6961 May  3 15:42 tiff.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1587 May  3 15:42 tiff.h
+
+OtherLibsLinux/FastvideoSDK/core_samples/metrics:
+total 20
+8 -rw-rw-r-- 1 nvidia nvidia 5778 May  3 15:42 metrics.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1924 May  3 15:42 metrics.hpp
+4 -rw-rw-r-- 1 nvidia nvidia 3368 May  3 15:42 SSIM.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1261 May  3 15:42 SSIM.h
+
+OtherLibsLinux/FastvideoSDK/core_samples/options:
+total 652
+4 -rw-rw-r-- 1 nvidia nvidia 2448 May  3 15:42 AffineOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1373 May  3 15:42 AffineOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1250 May  3 15:42 AffineSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1422 May  3 15:42 AffineSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1212 May  3 15:42 BadPixelCorrectionOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1344 May  3 15:42 BadPixelCorrectionOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1343 May  3 15:42 BadPixelCorrectionSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1591 May  3 15:42 BadPixelCorrectionSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 2792 May  3 15:42 BaseColorCorrectionOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1590 May  3 15:42 BaseColorCorrectionOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1289 May  3 15:42 BaseColorCorrectionSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1545 May  3 15:42 BaseColorCorrectionSampleOptions.h
+8 -rw-rw-r-- 1 nvidia nvidia 6102 May  3 15:42 BaseOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 3022 May  3 15:42 BaseOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1536 May  3 15:42 BayerBlackShiftOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1349 May  3 15:42 BayerBlackShiftOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1336 May  3 15:42 BayerBlackShiftSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1546 May  3 15:42 BayerBlackShiftSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 2012 May  3 15:42 BinningOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1400 May  3 15:42 BinningOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1253 May  3 15:42 BinningSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1399 May  3 15:42 BinningSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1462 May  3 15:42 BitDepthConverterOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1368 May  3 15:42 BitDepthConverterOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1283 May  3 15:42 BitDepthConverterSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1527 May  3 15:42 BitDepthConverterSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1855 May  3 15:42 CameraMultiSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1915 May  3 15:42 CameraMultiSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1514 May  3 15:42 CameraSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1718 May  3 15:42 CameraSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1324 May  3 15:42 CompactFfcOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1231 May  3 15:42 CompactFfcOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1262 May  3 15:42 CompactFfcSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1351 May  3 15:42 CompactFfcSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1814 May  3 15:42 ConverterOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1419 May  3 15:42 ConverterOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1603 May  3 15:42 CropOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1681 May  3 15:42 CropOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1244 May  3 15:42 CropSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1389 May  3 15:42 CropSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1326 May  3 15:42 DebayerJpegSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1495 May  3 15:42 DebayerJpegSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 3019 May  3 15:42 DebayerOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1500 May  3 15:42 DebayerOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1388 May  3 15:42 DebayerSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1585 May  3 15:42 DebayerSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 2194 May  3 15:42 DefringeOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1556 May  3 15:42 DefringeOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1256 May  3 15:42 DefringeSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1432 May  3 15:42 DefringeSampleOptions.h
+8 -rw-rw-r-- 1 nvidia nvidia 4903 May  3 15:42 DenoiseOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1493 May  3 15:42 DenoiseOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1511 May  3 15:42 FfcOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1227 May  3 15:42 FfcOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1241 May  3 15:42 FfcSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1309 May  3 15:42 FfcSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1403 May  3 15:42 FfmpegOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1308 May  3 15:42 FfmpegOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1346 May  3 15:42 FfmpegSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1482 May  3 15:42 FfmpegSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1607 May  3 15:42 GrayscaleCorrectionOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1492 May  3 15:42 GrayscaleCorrectionOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1523 May  3 15:42 GrayscaleToRgbOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1250 May  3 15:42 GrayscaleToRgbOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1274 May  3 15:42 GrayscaleToRgbSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1375 May  3 15:42 GrayscaleToRgbSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 2192 May  3 15:42 HdrBuilderOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1439 May  3 15:42 HdrBuilderOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1262 May  3 15:42 HdrBuilderSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1389 May  3 15:42 HdrBuilderSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1313 May  3 15:42 HdrImportOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1257 May  3 15:42 HdrImportOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1259 May  3 15:42 HdrImportSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1384 May  3 15:42 HdrImportSampleOptions.h
+8 -rw-rw-r-- 1 nvidia nvidia 4398 May  3 15:42 HistogramOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1644 May  3 15:42 HistogramOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1259 May  3 15:42 HistogramSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1423 May  3 15:42 HistogramSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1307 May  3 15:42 ImageConverterSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1479 May  3 15:42 ImageConverterSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 2730 May  3 15:42 ImageFilterOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1468 May  3 15:42 ImageFilterOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1298 May  3 15:42 ImageFilterSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1462 May  3 15:42 ImageFilterSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 2043 May  3 15:42 InterpolationOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1373 May  3 15:42 InterpolationOptions.h
+8 -rw-rw-r-- 1 nvidia nvidia 5704 May  3 15:42 J2kDecoderOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2019 May  3 15:42 J2kDecoderOptions.h
+8 -rw-rw-r-- 1 nvidia nvidia 5788 May  3 15:42 J2kEncoderOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1792 May  3 15:42 J2kEncoderOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1469 May  3 15:42 Jpeg2JpegSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1509 May  3 15:42 Jpeg2JpegSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1268 May  3 15:42 JpegDecoderOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1357 May  3 15:42 JpegDecoderOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1298 May  3 15:42 JpegDecoderSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1462 May  3 15:42 JpegDecoderSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 2552 May  3 15:42 JpegEncoderOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1595 May  3 15:42 JpegEncoderOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1298 May  3 15:42 JpegEncoderSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1462 May  3 15:42 JpegEncoderSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1312 May  3 15:42 LutDebayerSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1495 May  3 15:42 LutDebayerSampleOptions.h
+8 -rw-rw-r-- 1 nvidia nvidia 6383 May  3 15:42 LutOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1529 May  3 15:42 LutOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1241 May  3 15:42 LutSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1395 May  3 15:42 LutSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1324 May  3 15:42 MatrixGeneratorOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1345 May  3 15:42 MatrixGeneratorOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1268 May  3 15:42 MatrixGeneratorSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1497 May  3 15:42 MatrixGeneratorSampleOptions.h
+8 -rw-rw-r-- 1 nvidia nvidia 4535 May  3 15:42 NppImageFilterOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1557 May  3 15:42 NppImageFilterOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1307 May  3 15:42 NppImageFilterSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1500 May  3 15:42 NppImageFilterSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1998 May  3 15:42 NppPerspectiveOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1274 May  3 15:42 NppPerspectiveOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1372 May  3 15:42 NppPerspectiveSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1546 May  3 15:42 NppPerspectiveSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 2025 May  3 15:42 NppRemapOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1479 May  3 15:42 NppRemapOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1316 May  3 15:42 NppRemapSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1516 May  3 15:42 NppRemapSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1678 May  3 15:42 NppResizeOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1389 May  3 15:42 NppResizeOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1319 May  3 15:42 NppResizeSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1525 May  3 15:42 NppResizeSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1484 May  3 15:42 NppRotateOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1365 May  3 15:42 NppRotateOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1321 May  3 15:42 NppRotateSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1490 May  3 15:42 NppRotateSampleOptions.h
+8 -rw-rw-r-- 1 nvidia nvidia 4556 May  3 15:42 ParametersParser.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1928 May  3 15:42 ParametersParser.h
+4 -rw-rw-r-- 1 nvidia nvidia 2418 May  3 15:42 RawImportOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1453 May  3 15:42 RawImportOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1253 May  3 15:42 RawImportSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1446 May  3 15:42 RawImportSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 2522 May  3 15:42 ResizerOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1671 May  3 15:42 ResizerOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1285 May  3 15:42 ResizerSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1430 May  3 15:42 ResizerSampleOptions.h
+8 -rw-rw-r-- 1 nvidia nvidia 7940 May  3 15:42 SDIConverterOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1555 May  3 15:42 SDIConverterOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1259 May  3 15:42 SDIConverterSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1470 May  3 15:42 SDIConverterSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1595 May  3 15:42 SelectChannelOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1412 May  3 15:42 SelectChannelOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1271 May  3 15:42 SelectChannelSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1488 May  3 15:42 SelectChannelSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1387 May  3 15:42 ToneCurveOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1338 May  3 15:42 ToneCurveOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1259 May  3 15:42 ToneCurveSampleOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1452 May  3 15:42 ToneCurveSampleOptions.h
+4 -rw-rw-r-- 1 nvidia nvidia 1730 May  3 15:42 WhiteBalanceOptions.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1433 May  3 15:42 WhiteBalanceOptions.h
+
+OtherLibsLinux/FastvideoSDK/core_samples/PugiXml:
+total 716
+  4 -rw-rw-r-- 1 nvidia nvidia   2789 May  3 15:42 pugiconfig.hpp
+320 -rw-rw-r-- 1 nvidia nvidia 325627 May  3 15:42 pugixml.cpp
+ 52 -rw-rw-r-- 1 nvidia nvidia  51024 May  3 15:42 pugixml.hpp
+340 -rw-r--r-- 1 nvidia nvidia 347904 May  6 12:29 pugixml.o
+
+OtherLibsLinux/FastvideoSDK/DataSet:
+total 16
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 Images
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 LUT
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 Other
+4 drwxr-xr-x 2 nvidia nvidia 4096 May  6 11:04 QuantTable
+
+OtherLibsLinux/FastvideoSDK/DataSet/Images:
+total 45892
+  432 -rw-rw-r-- 1 nvidia nvidia   438991 May  3 15:41 2k_wild.IRREV.jp2
+ 6076 -rw-rw-r-- 1 nvidia nvidia  6220840 May  3 15:41 2k_wild.ppm
+  812 -rw-rw-r-- 1 nvidia nvidia   828884 May  3 15:41 2k_wild.ri1.jpg
+  516 -rw-rw-r-- 1 nvidia nvidia   524304 May  3 15:41 BPC.pgm
+ 1416 -rw-rw-r-- 1 nvidia nvidia  1447216 May  3 15:42 cakePlus.12.ppm
+ 4052 -rw-rw-r-- 1 nvidia nvidia  4147218 May  3 15:42 flatField.pgm
+32588 -rw-rw-r-- 1 nvidia nvidia 33369856 May  3 15:42 Outdoor.raw
+
+OtherLibsLinux/FastvideoSDK/DataSet/LUT:
+total 1308
+292 -rw-rw-r-- 1 nvidia nvidia 298505 May  3 15:42 HsvLut2D.xml
+496 -rw-rw-r-- 1 nvidia nvidia 505295 May  3 15:42 HsvLut3D.xml
+  4 -rw-rw-r-- 1 nvidia nvidia    914 May  3 15:42 InvertColor.8bit.txt
+ 16 -rw-rw-r-- 1 nvidia nvidia  14624 May  3 15:42 lut12.txt
+496 -rw-rw-r-- 1 nvidia nvidia 506498 May  3 15:42 lut3D_inverse_12.cube
+  4 -rw-rw-r-- 1 nvidia nvidia    914 May  3 15:42 lut.txt
+
+OtherLibsLinux/FastvideoSDK/DataSet/Other:
+total 8
+8 -rw-rw-r-- 1 nvidia nvidia 8192 May  3 15:42 toneCurve.txt
+
+OtherLibsLinux/FastvideoSDK/DataSet/QuantTable:
+total 4
+4 -rw-rw-r-- 1 nvidia nvidia 416 May  3 15:42 QuantTable10.txt
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples:
+total 92
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 BayerCompressionSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 CameraMultiSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 May 11 08:58 CameraSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 ComponentsSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 DebayerJpegSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 DebayerSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 DenoiseSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 FfmpegSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 HdrSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 May 11 09:04 HistogramSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 ImageConverterSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 J2KDecoderSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 J2KEncoderSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 Jpeg2JpegSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 May 11 09:01 JpegAsyncSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 May 11 09:02 JpegSample
+4 -rw-rw-r-- 1 nvidia nvidia 2510 May  3 15:42 Makefile
+4 -rw-rw-r-- 1 nvidia nvidia 3489 May  6 12:17 Makefile.common
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 MuxSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 NppSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 RawImportSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 ResizeSample
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 SDIConverterSample
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/BayerCompressionSample:
+total 48
+8 -rw-rw-r-- 1 nvidia nvidia 6976 May  3 15:42 DecoderMerger.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2167 May  3 15:42 DecoderMerger.h
+4 -rw-rw-r-- 1 nvidia nvidia 2991 May  3 15:42 main.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1251 May  3 15:42 Makefile
+4 -rw-rw-r-- 1 nvidia nvidia 2879 May  3 15:42 message.cpp
+8 -rw-rw-r-- 1 nvidia nvidia 5694 May  3 15:42 RunBayerCompression.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1303 May  3 15:42 RunBayerCompression.hpp
+8 -rw-rw-r-- 1 nvidia nvidia 6312 May  3 15:42 SplitterEncoder.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2044 May  3 15:42 SplitterEncoder.h
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/CameraMultiSample:
+total 44
+12 -rw-rw-r-- 1 nvidia nvidia 11385 May  3 15:42 DebayerFfmpegMulti.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2915 May  3 15:42 DebayerFfmpegMulti.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2236 May  3 15:42 main.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1279 May  3 15:42 Makefile
+ 8 -rw-rw-r-- 1 nvidia nvidia  4176 May  3 15:42 message.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  7260 May  3 15:42 RunCameraMulti.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1245 May  3 15:42 RunCameraMulti.hpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/CameraSample:
+total 44
+12 -rw-rw-r-- 1 nvidia nvidia  9970 May  3 15:42 DebayerFfmpeg.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2586 May  3 15:42 DebayerFfmpeg.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2226 May  3 15:42 main.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1271 May  3 15:42 Makefile
+ 4 -rw-rw-r-- 1 nvidia nvidia  3472 May  3 15:42 message.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia   100 May  3 15:42 opengl.install.readme
+12 -rw-rw-r-- 1 nvidia nvidia 12008 May  3 15:42 RunCamera.hpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/ComponentsSample:
+total 504
+ 8 -rw-rw-r-- 1 nvidia nvidia  5711 May  3 15:42 Affine.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1895 May  3 15:42 Affine.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5320 May  3 15:42 BadPixelCorrection.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1992 May  3 15:42 BadPixelCorrection.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  6221 May  3 15:42 BaseColorCorrection.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2077 May  3 15:42 BaseColorCorrection.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5551 May  3 15:42 BayerBlackShift.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1991 May  3 15:42 BayerBlackShift.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  4237 May  3 15:42 BGRXImport.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1878 May  3 15:42 BGRXImport.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5468 May  3 15:42 Binning.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1886 May  3 15:42 Binning.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5707 May  3 15:42 BitDepthConverter.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2113 May  3 15:42 BitDepthConverter.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5980 May  3 15:42 Crop.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1851 May  3 15:42 Crop.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5561 May  3 15:42 Defringe.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1945 May  3 15:42 Defringe.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5350 May  3 15:42 Ffc.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1854 May  3 15:42 Ffc.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5373 May  3 15:42 GrayToGrayRgb.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1826 May  3 15:42 GrayToGrayRgb.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5387 May  3 15:42 GrayToRgb.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1905 May  3 15:42 GrayToRgb.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  6424 May  3 15:42 HSVLut3D.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2316 May  3 15:42 HSVLut3D.h
+12 -rw-rw-r-- 1 nvidia nvidia 12166 May  3 15:42 Lut16.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2141 May  3 15:42 Lut16.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  6115 May  3 15:42 Lut8C.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2049 May  3 15:42 Lut8C.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5670 May  3 15:42 Lut8.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1971 May  3 15:42 Lut8.h
+12 -rw-rw-r-- 1 nvidia nvidia  8564 May  3 15:42 LutBayer.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2252 May  3 15:42 LutBayer.h
+32 -rw-rw-r-- 1 nvidia nvidia 29847 May  3 15:42 main.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  3166 May  3 15:42 Makefile
+ 8 -rw-rw-r-- 1 nvidia nvidia  5214 May  3 15:42 Median.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1911 May  3 15:42 Median.h
+12 -rw-rw-r-- 1 nvidia nvidia  8635 May  3 15:42 message.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  7112 May  3 15:42 RGBLut3D.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2316 May  3 15:42 RGBLut3D.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5638 May  3 15:42 RgbToGray.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1977 May  3 15:42 RgbToGray.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2085 May  3 15:42 RunAffine.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1183 May  3 15:42 RunAffine.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2190 May  3 15:42 RunBadPixelCorrection.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1261 May  3 15:42 RunBadPixelCorrection.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  3324 May  3 15:42 RunBaseColorCorrection.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1268 May  3 15:42 RunBaseColorCorrection.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2411 May  3 15:42 RunBayerBlackShift.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1243 May  3 15:42 RunBayerBlackShift.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2924 May  3 15:42 RunBGRXImport.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1187 May  3 15:42 RunBGRXImport.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2220 May  3 15:42 RunBinning.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1190 May  3 15:42 RunBinning.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2351 May  3 15:42 RunBitDepthConverter.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1255 May  3 15:42 RunBitDepthConverter.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  5344 May  3 15:42 RunColorConvertion.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1375 May  3 15:42 RunColorConvertion.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2015 May  3 15:42 RunCompactFfc.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2044 May  3 15:42 RunCrop.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1171 May  3 15:42 RunCrop.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2103 May  3 15:42 RunDefringe.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1195 May  3 15:42 RunDefringe.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2397 May  3 15:42 RunFfc.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1212 May  3 15:42 RunFfc.hpp
+16 -rw-rw-r-- 1 nvidia nvidia 16212 May  3 15:42 RunLuts.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1540 May  3 15:42 RunLuts.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2431 May  3 15:42 RunMedian.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1195 May  3 15:42 RunMedian.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  5241 May  3 15:42 RunSam.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1200 May  3 15:42 RunSam.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2271 May  3 15:42 RunSelectChannel.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1228 May  3 15:42 RunSelectChannel.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2256 May  3 15:42 RunSharpen.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1222 May  3 15:42 RunSharpen.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  3083 May  3 15:42 RunToneCurve16.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1205 May  3 15:42 RunToneCurve16.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  7472 May  3 15:42 Sam.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2251 May  3 15:42 Sam.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5629 May  3 15:42 SelectChannel.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2036 May  3 15:42 SelectChannel.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5674 May  3 15:42 Sharpen.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1940 May  3 15:42 Sharpen.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5327 May  3 15:42 ToneCurve16.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2023 May  3 15:42 ToneCurve16.h
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/DebayerJpegSample:
+total 32
+8 -rw-rw-r-- 1 nvidia nvidia 5971 May  3 15:42 DebayerJpeg.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1823 May  3 15:42 DebayerJpeg.h
+4 -rw-rw-r-- 1 nvidia nvidia 2267 May  3 15:42 main.cpp
+4 -rw-rw-r-- 1 nvidia nvidia  823 May  3 15:42 Makefile
+4 -rw-rw-r-- 1 nvidia nvidia 2548 May  3 15:42 message.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 3030 May  3 15:42 RunDebayerEncode.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1218 May  3 15:42 RunDebayerEncode.hpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/DebayerSample:
+total 76
+12 -rw-rw-r-- 1 nvidia nvidia 11204 May  3 15:42 DebayerAsync.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2816 May  3 15:42 DebayerAsync.h
+16 -rw-rw-r-- 1 nvidia nvidia 14335 May  3 15:42 Debayer.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2625 May  3 15:42 Debayer.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2346 May  3 15:42 main.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia   783 May  3 15:42 Makefile
+ 8 -rw-rw-r-- 1 nvidia nvidia  4593 May  3 15:42 message.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  6841 May  3 15:42 RunDebayerAsync.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  4503 May  3 15:42 RunDebayer.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1252 May  3 15:42 RunDebayer.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1526 May  3 15:42 TemplateInstances.cpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/DenoiseSample:
+total 32
+8 -rw-rw-r-- 1 nvidia nvidia 7908 May  3 15:42 Denoise.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2044 May  3 15:42 Denoise.h
+4 -rw-rw-r-- 1 nvidia nvidia 2560 May  3 15:42 main.cpp
+4 -rw-rw-r-- 1 nvidia nvidia  478 May  3 15:42 Makefile
+4 -rw-rw-r-- 1 nvidia nvidia 3166 May  3 15:42 message.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2326 May  3 15:42 RunDenoise.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1096 May  3 15:42 RunDenoise.hpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/FfmpegSample:
+total 52
+8 -rw-rw-r-- 1 nvidia nvidia 4323 May  3 15:42 FfmpegDecoder.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2019 May  3 15:42 FfmpegDecoder.h
+8 -rw-rw-r-- 1 nvidia nvidia 5837 May  3 15:42 FfmpegEncoderAsync.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2053 May  3 15:42 FfmpegEncoderAsync.h
+8 -rw-rw-r-- 1 nvidia nvidia 6237 May  3 15:42 FfmpegEncoder.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2156 May  3 15:42 FfmpegEncoder.h
+4 -rw-rw-r-- 1 nvidia nvidia 3319 May  3 15:42 main.cpp
+4 -rw-rw-r-- 1 nvidia nvidia  942 May  3 15:42 Makefile
+4 -rw-rw-r-- 1 nvidia nvidia 2851 May  3 15:42 message.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 3179 May  3 15:42 RunFfmpeg.hpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/HdrSample:
+total 48
+8 -rw-rw-r-- 1 nvidia nvidia 6875 May  3 15:42 HdrBuilder.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1820 May  3 15:42 HdrBuilder.h
+4 -rw-rw-r-- 1 nvidia nvidia 3978 May  3 15:42 HdrImport.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1718 May  3 15:42 HdrImport.h
+4 -rw-rw-r-- 1 nvidia nvidia 3549 May  3 15:42 main.cpp
+4 -rw-rw-r-- 1 nvidia nvidia  621 May  3 15:42 Makefile
+4 -rw-rw-r-- 1 nvidia nvidia 2224 May  3 15:42 message.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 3079 May  3 15:42 RunHdrBuilder.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1117 May  3 15:42 RunHdrBuilder.hpp
+4 -rw-rw-r-- 1 nvidia nvidia 2171 May  3 15:42 RunHdrImport.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1130 May  3 15:42 RunHdrImport.hpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/HistogramSample:
+total 32
+8 -rw-rw-r-- 1 nvidia nvidia 7487 May  3 15:42 Histogram.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2066 May  3 15:42 Histogram.h
+4 -rw-rw-r-- 1 nvidia nvidia 1824 May  3 15:42 main.cpp
+4 -rw-rw-r-- 1 nvidia nvidia  492 May  3 15:42 Makefile
+4 -rw-rw-r-- 1 nvidia nvidia 2802 May  3 15:42 message.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 3677 May  3 15:42 RunHistogram.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1189 May  3 15:42 RunHistogram.h
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/ImageConverterSample:
+total 76
+ 4 -rw-rw-r-- 1 nvidia nvidia  2592 May  3 15:42 main.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia   832 May  3 15:42 Makefile
+ 4 -rw-rw-r-- 1 nvidia nvidia  2587 May  3 15:42 message.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  3492 May  3 15:42 RunColorConvert.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1222 May  3 15:42 RunColorConvert.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2510 May  3 15:42 RunCrop.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1199 May  3 15:42 RunCrop.hpp
+16 -rw-rw-r-- 1 nvidia nvidia 13199 May  3 15:42 RunImageConverter.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1218 May  3 15:42 RunImageConverter.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2621 May  3 15:42 RunMatrixGenerator.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1268 May  3 15:42 RunMatrixGenerator.hpp
+12 -rw-rw-r-- 1 nvidia nvidia  9181 May  3 15:42 RunMosaic.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1172 May  3 15:42 RunMosaic.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1514 May  3 15:42 RunMosaicInternal.hpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/J2KDecoderSample:
+total 88
+12 -rw-rw-r-- 1 nvidia nvidia 8405 May  3 15:42 J2kDecoderAsync.h
+ 4 -rw-rw-r-- 1 nvidia nvidia 2868 May  3 15:42 J2kDecoderBase.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1501 May  3 15:42 J2kDecoderBase.h
+12 -rw-rw-r-- 1 nvidia nvidia 9153 May  3 15:42 J2kDecoderBatch.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2572 May  3 15:42 J2kDecoderBatch.h
+ 8 -rw-rw-r-- 1 nvidia nvidia 7804 May  3 15:42 J2kDecoderOneImage.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1799 May  3 15:42 J2kDecoderOneImage.h
+ 4 -rw-rw-r-- 1 nvidia nvidia 2344 May  3 15:42 main.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  780 May  3 15:42 Makefile
+ 8 -rw-rw-r-- 1 nvidia nvidia 5060 May  3 15:42 messages.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia 4669 May  3 15:42 RunJ2kDecoderAsync.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia 4789 May  3 15:42 RunJ2kDecoder.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1196 May  3 15:42 RunJ2kDecoders.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1697 May  3 15:42 TemplateInstances.cpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/J2KEncoderSample:
+total 84
+ 4 -rw-rw-r-- 1 nvidia nvidia 1695 May  3 15:42 J2kEncoderAsync.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia 8068 May  3 15:42 J2kEncoderAsync.h
+ 4 -rw-rw-r-- 1 nvidia nvidia 3413 May  3 15:42 J2kEncoderBase.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1678 May  3 15:42 J2kEncoderBase.h
+ 8 -rw-rw-r-- 1 nvidia nvidia 8075 May  3 15:42 J2kEncoderBatch.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1955 May  3 15:42 J2kEncoderBatch.h
+12 -rw-rw-r-- 1 nvidia nvidia 8519 May  3 15:42 J2kEncoderOneImage.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1799 May  3 15:42 J2kEncoderOneImage.h
+ 4 -rw-rw-r-- 1 nvidia nvidia 2317 May  3 15:42 main.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  686 May  3 15:42 Makefile
+ 8 -rw-rw-r-- 1 nvidia nvidia 5176 May  3 15:42 message.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia 4724 May  3 15:42 RunJ2kEncoderAsync.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 3527 May  3 15:42 RunJ2kEncoder.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1196 May  3 15:42 RunJ2kEncoder.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1838 May  3 15:42 TemplateInstances.cpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/Jpeg2JpegSample:
+total 76
+16 -rw-rw-r-- 1 nvidia nvidia 14064 May  3 15:42 Jpeg2JpegAsync.h
+20 -rw-rw-r-- 1 nvidia nvidia 16546 May  3 15:42 Jpeg2Jpeg.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2470 May  3 15:42 Jpeg2Jpeg.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2329 May  3 15:42 main.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1024 May  3 15:42 Makefile
+ 4 -rw-rw-r-- 1 nvidia nvidia  4001 May  3 15:42 message.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  6129 May  3 15:42 RunJpeg2JpegAsync.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  5341 May  3 15:42 RunJpeg2Jpeg.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1194 May  3 15:42 RunJpeg2Jpeg.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1700 May  3 15:42 TemplateInstances.cpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/JpegAsyncSample:
+total 32
+8 -rw-rw-r-- 1 nvidia nvidia 6479 May  3 15:42 JpegEncoderAsync.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1841 May  3 15:42 JpegEncoderAsync.h
+4 -rw-rw-r-- 1 nvidia nvidia 2292 May  3 15:42 main.cpp
+4 -rw-rw-r-- 1 nvidia nvidia  698 May  3 15:42 Makefile
+4 -rw-rw-r-- 1 nvidia nvidia 2326 May  3 15:42 message.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 3156 May  3 15:42 RunJpegAsync.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1165 May  3 15:42 RunJpegAsync.hpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/JpegSample:
+total 112
+ 8 -rw-rw-r-- 1 nvidia nvidia  7898 May  3 15:42 DecoderAsync.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  8010 May  3 15:42 Decoder.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  5316 May  3 15:42 DecoderCpu.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1923 May  3 15:42 DecoderCpu.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1985 May  3 15:42 Decoder.h
+12 -rw-rw-r-- 1 nvidia nvidia 10580 May  3 15:42 EncoderAsync.h
+12 -rw-rw-r-- 1 nvidia nvidia  9854 May  3 15:42 Encoder.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  2114 May  3 15:42 Encoder.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  3833 May  3 15:42 main.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1407 May  3 15:42 Makefile
+ 4 -rw-rw-r-- 1 nvidia nvidia  3774 May  3 15:42 message.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  4547 May  3 15:42 RunJpegDecoderAsync.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  3647 May  3 15:42 RunJpegDecoder.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1208 May  3 15:42 RunJpegDecoders.hpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  5629 May  3 15:42 RunJpegEncoderAsync.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia  4408 May  3 15:42 RunJpegEncoder.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1288 May  3 15:42 RunJpegEncoders.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  1948 May  3 15:42 TemplateInstances.cpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/MuxSample:
+total 32
+8 -rw-rw-r-- 1 nvidia nvidia 7289 May  3 15:42 DebayerMux.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2225 May  3 15:42 DebayerMux.h
+4 -rw-rw-r-- 1 nvidia nvidia 2272 May  3 15:42 main.cpp
+4 -rw-rw-r-- 1 nvidia nvidia  685 May  3 15:42 Makefile
+4 -rw-rw-r-- 1 nvidia nvidia 2352 May  3 15:42 message.cpp
+8 -rw-rw-r-- 1 nvidia nvidia 4430 May  3 15:42 RunDebayerMux.hpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/NppSample:
+total 164
+ 8 -rw-rw-r-- 1 nvidia nvidia 5448 May  3 15:42 Gauss.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2018 May  3 15:42 Gauss.h
+12 -rw-rw-r-- 1 nvidia nvidia 9559 May  3 15:42 main.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  858 May  3 15:42 Makefile
+ 8 -rw-rw-r-- 1 nvidia nvidia 4184 May  3 15:42 message.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia 5401 May  3 15:42 Perspective.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2049 May  3 15:42 Perspective.h
+ 8 -rw-rw-r-- 1 nvidia nvidia 8040 May  3 15:42 Remap3.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1992 May  3 15:42 Remap3.h
+ 8 -rw-rw-r-- 1 nvidia nvidia 7025 May  3 15:42 Remap.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1987 May  3 15:42 Remap.h
+ 8 -rw-rw-r-- 1 nvidia nvidia 5761 May  3 15:42 Resize2.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2001 May  3 15:42 Resize2.h
+ 4 -rw-rw-r-- 1 nvidia nvidia 1589 May  3 15:42 ResizeTypeToStr.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1229 May  3 15:42 ResizeTypeToStr.h
+ 8 -rw-rw-r-- 1 nvidia nvidia 7120 May  3 15:42 Rotate.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1991 May  3 15:42 Rotate.h
+ 4 -rw-rw-r-- 1 nvidia nvidia 1310 May  3 15:42 RunFilterSamples.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2221 May  3 15:42 RunGauss.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1706 May  3 15:42 RunNppSamples.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2128 May  3 15:42 RunPerspective.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1216 May  3 15:42 RunPerspective.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2562 May  3 15:42 RunRemap.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1251 May  3 15:42 RunRemap.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2652 May  3 15:42 RunResize.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1254 May  3 15:42 RunResizeSamples.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2129 May  3 15:42 RunRotate.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1254 May  3 15:42 RunRotateSamples.hpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2201 May  3 15:42 RunUnsharpMask.cpp
+ 8 -rw-rw-r-- 1 nvidia nvidia 6016 May  3 15:42 UnsharpMask.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2032 May  3 15:42 UnsharpMask.h
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/RawImportSample:
+total 44
+4 -rw-rw-r-- 1 nvidia nvidia 2235 May  3 15:42 main.cpp
+4 -rw-rw-r-- 1 nvidia nvidia  492 May  3 15:42 Makefile
+4 -rw-rw-r-- 1 nvidia nvidia 2108 May  3 15:42 message.cpp
+8 -rw-rw-r-- 1 nvidia nvidia 5357 May  3 15:42 RawImportFromDevice.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1942 May  3 15:42 RawImportFromDevice.h
+8 -rw-rw-r-- 1 nvidia nvidia 4433 May  3 15:42 RawImportFromHost.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1906 May  3 15:42 RawImportFromHost.h
+4 -rw-rw-r-- 1 nvidia nvidia 2838 May  3 15:42 RunRawImport.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1205 May  3 15:42 RunRawImport.hpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/ResizeSample:
+total 36
+ 4 -rw-rw-r-- 1 nvidia nvidia 2223 May  3 15:42 main.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia  485 May  3 15:42 Makefile
+ 4 -rw-rw-r-- 1 nvidia nvidia 2302 May  3 15:42 message.cpp
+12 -rw-rw-r-- 1 nvidia nvidia 9013 May  3 15:42 Resize.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 2012 May  3 15:42 Resize.h
+ 4 -rw-rw-r-- 1 nvidia nvidia 3016 May  3 15:42 RunResizer.cpp
+ 4 -rw-rw-r-- 1 nvidia nvidia 1180 May  3 15:42 RunResizer.hpp
+
+OtherLibsLinux/FastvideoSDK/fastvideo_samples/SDIConverterSample:
+total 80
+4 -rw-rw-r-- 1 nvidia nvidia 2058 May  3 15:42 main.cpp
+4 -rw-rw-r-- 1 nvidia nvidia  502 May  3 15:42 Makefile
+4 -rw-rw-r-- 1 nvidia nvidia 2830 May  3 15:42 message.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1286 May  3 15:42 RunSDIConverter.hpp
+4 -rw-rw-r-- 1 nvidia nvidia 2719 May  3 15:42 RunSDIExport.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2698 May  3 15:42 RunSDIImport.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1731 May  3 15:42 SDICommon.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2422 May  3 15:42 SDICommon.hpp
+8 -rw-rw-r-- 1 nvidia nvidia 8093 May  3 15:42 SDIExportToDevice.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2079 May  3 15:42 SDIExportToDevice.h
+8 -rw-rw-r-- 1 nvidia nvidia 6752 May  3 15:42 SDIExportToHost.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 1955 May  3 15:42 SDIExportToHost.h
+8 -rw-rw-r-- 1 nvidia nvidia 7877 May  3 15:42 SDIImportFromDevice.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2150 May  3 15:42 SDIImportFromDevice.h
+8 -rw-rw-r-- 1 nvidia nvidia 6761 May  3 15:42 SDIImportFromHost.cpp
+4 -rw-rw-r-- 1 nvidia nvidia 2048 May  3 15:42 SDIImportFromHost.h
+
+OtherLibsLinux/FastvideoSDK/fastvideo_sdk:
+total 8
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 inc
+4 drwxr-xr-x 3 nvidia nvidia 4096 Jul  6 12:38 lib
+
+OtherLibsLinux/FastvideoSDK/fastvideo_sdk/inc:
+total 172
+ 12 -rw-r--r-- 1 nvidia nvidia   8914 May 11 07:09 fastvideo_decoder_j2k.h
+  8 -rw-r--r-- 1 nvidia nvidia   4898 May 11 07:07 fastvideo_encoder_j2k.h
+  8 -rw-r--r-- 1 nvidia nvidia   4405 May 11 07:10 fastvideo_j2kFfmpegWrapper.h
+  8 -rw-r--r-- 1 nvidia nvidia   5099 May 11 07:09 fastvideo_jpegCpuDecoder.h
+  8 -rw-r--r-- 1 nvidia nvidia   4715 May 11 07:09 fastvideo_mjpeg.h
+  4 -rw-r--r-- 1 nvidia nvidia   1670 May 11 07:05 fastvideo_nppCommon.h
+  4 -rw-r--r-- 1 nvidia nvidia   3182 May 11 07:05 fastvideo_nppFilter.h
+  4 -rw-r--r-- 1 nvidia nvidia   3483 May 11 07:05 fastvideo_nppGeometry.h
+  4 -rw-r--r-- 1 nvidia nvidia   3025 May 11 07:05 fastvideo_nppResize.h
+  4 -rw-r--r-- 1 nvidia nvidia   3106 May 11 07:05 fastvideo_nppRotate.h
+100 -rw-r--r-- 1 nvidia nvidia 100513 May 11 07:04 fastvideo_sdk.h
+  8 -rw-rw-r-- 1 nvidia nvidia   4391 May  6 11:59 version.h
+
+OtherLibsLinux/FastvideoSDK/fastvideo_sdk/lib:
+total 53464
+    4 drwxrwxr-x 2 nvidia nvidia     4096 Jul  6 12:40 Arm64
+ 2492 -rw-r--r-- 1 nvidia nvidia  2550808 May 11 07:09 libfastvideo_decoder_j2k.so.7.0.0.1.0170601
+ 4704 -rw-r--r-- 1 nvidia nvidia  4814968 May 11 07:07 libfastvideo_encoder_j2k.so.3.1.0.0.0170601
+  144 -rw-r--r-- 1 nvidia nvidia   145384 May 11 07:10 libfastvideo_j2kFfmpegWrapper.so.1.0.0.0.0170601
+   40 -rw-r--r-- 1 nvidia nvidia    38696 May 11 07:09 libfastvideo_jpegCpuDecoder.so.1.0.0.0.0170601
+  120 -rw-r--r-- 1 nvidia nvidia   122200 May 11 07:09 libfastvideo_mjpeg.so.1.0.0.0.0170601
+ 1104 -rw-r--r-- 1 nvidia nvidia  1128768 May 11 07:05 libfastvideo_nppFilter.so.1.0.1.1.0170601
+  148 -rw-r--r-- 1 nvidia nvidia   149904 May 11 07:05 libfastvideo_nppGeometry.so.1.1.0.0.0170601
+   96 -rw-r--r-- 1 nvidia nvidia    97240 May 11 07:05 libfastvideo_nppResize.so.1.0.1.0.0170601
+   84 -rw-r--r-- 1 nvidia nvidia    82592 May 11 07:05 libfastvideo_nppRotate.so.1.0.1.0.0170601
+44524 -rw-r--r-- 1 nvidia nvidia 45585512 May 11 07:04 libfastvideo_sdk.so.0.17.6.1.0170601
+    4 -rw-r--r-- 1 nvidia nvidia     1439 May 11 07:04 make_sl.sh
+
+OtherLibsLinux/FastvideoSDK/fastvideo_sdk/lib/Arm64:
+total 53456
+ 2492 -rw-r--r-- 1 nvidia nvidia  2550808 Jul  6 12:39 libfastvideo_decoder_j2k.so.7.0.0.1.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       25 Jul  6 12:40 libfastvideo_denoise.so -> libfastvideo_denoise.so.2
+ 4704 -rw-r--r-- 1 nvidia nvidia  4814968 Jul  6 12:39 libfastvideo_encoder_j2k.so.3.1.0.0.0170601
+  144 -rw-r--r-- 1 nvidia nvidia   145384 Jul  6 12:39 libfastvideo_j2kFfmpegWrapper.so.1.0.0.0.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       48 Jul  6 12:40 libfastvideo_j2kFfmpegWrapper.so.2 -> libfastvideo_j2kFfmpegWrapper.so.1.0.0.0.0170601
+   40 -rw-r--r-- 1 nvidia nvidia    38696 Jul  6 12:39 libfastvideo_jpegCpuDecoder.so.1.0.0.0.0170601
+  120 -rw-r--r-- 1 nvidia nvidia   122200 Jul  6 12:39 libfastvideo_mjpeg.so.1.0.0.0.0170601
+ 1104 -rw-r--r-- 1 nvidia nvidia  1128768 Jul  6 12:39 libfastvideo_nppFilter.so.1.0.1.1.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       41 Jul  6 12:40 libfastvideo_nppFilter.so.2 -> libfastvideo_nppFilter.so.1.0.1.1.0170601
+  148 -rw-r--r-- 1 nvidia nvidia   149904 Jul  6 12:39 libfastvideo_nppGeometry.so.1.1.0.0.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       43 Jul  6 12:40 libfastvideo_nppGeometry.so.2 -> libfastvideo_nppGeometry.so.1.1.0.0.0170601
+   96 -rw-r--r-- 1 nvidia nvidia    97240 Jul  6 12:39 libfastvideo_nppResize.so.1.0.1.0.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       41 Jul  6 12:40 libfastvideo_nppResize.so.2 -> libfastvideo_nppResize.so.1.0.1.0.0170601
+   84 -rw-r--r-- 1 nvidia nvidia    82592 Jul  6 12:39 libfastvideo_nppRotate.so.1.0.1.0.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       41 Jul  6 12:40 libfastvideo_nppRotate.so.2 -> libfastvideo_nppRotate.so.1.0.1.0.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       22 Jul  6 12:40 libfastvideo_sdk.so -> libfastvideo_sdk.so.18
+44520 -rw-r--r-- 1 nvidia nvidia 45585512 Jul  6 12:39 libfastvideo_sdk.so.0.17.6.1.0170601
+    0 lrwxrwxrwx 1 nvidia nvidia       36 Jul  6 12:40 libfastvideo_sdk.so.18 -> libfastvideo_sdk.so.0.17.6.1.0170601
+    4 -rw-r--r-- 1 nvidia nvidia     1439 Jul  6 12:39 make_sl.sh
+
+OtherLibsLinux/FastvideoSDK/libs:
+total 16
+4 drwxr-xr-x 5 nvidia nvidia 4096 May  6 11:04 ffmpeg
+4 drwxr-xr-x 5 nvidia nvidia 4096 Jul  6 12:22 libexif
+4 drwxr-xr-x 5 nvidia nvidia 4096 Jul  6 12:22 libjpeg-turbo
+4 drwxr-xr-x 5 nvidia nvidia 4096 Jul  6 12:22 libtiff
+
+OtherLibsLinux/FastvideoSDK/libs/ffmpeg:
+total 16
+4 -rwxrwxr-x 1 nvidia nvidia  323 May  3 15:42 configure.lgpl.aarch64.sh
+4 drwxr-xr-x 6 nvidia nvidia 4096 Jul  6 12:22 inc
+4 drwxr-xr-x 3 nvidia nvidia 4096 May  6 11:04 lib
+4 drwxr-xr-x 2 nvidia nvidia 4096 May  6 11:04 src
+
+OtherLibsLinux/FastvideoSDK/libs/ffmpeg/inc:
+total 16
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 libavcodec
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 libavformat
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 libavutil
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 libswresample
+
+OtherLibsLinux/FastvideoSDK/libs/ffmpeg/inc/libavcodec:
+total 288
+  4 -rw-rw-r-- 1 nvidia nvidia   1207 May  3 15:42 ac3_parser.h
+  4 -rw-rw-r-- 1 nvidia nvidia   1354 May  3 15:42 adts_parser.h
+208 -rw-rw-r-- 1 nvidia nvidia 211684 May  3 15:42 avcodec.h
+  4 -rw-rw-r-- 1 nvidia nvidia   2570 May  3 15:42 avdct.h
+  4 -rw-rw-r-- 1 nvidia nvidia   3111 May  3 15:42 avfft.h
+  4 -rw-rw-r-- 1 nvidia nvidia   2853 May  3 15:42 d3d11va.h
+  4 -rw-rw-r-- 1 nvidia nvidia   4044 May  3 15:42 dirac.h
+  4 -rw-rw-r-- 1 nvidia nvidia   3715 May  3 15:42 dv_profile.h
+  4 -rw-rw-r-- 1 nvidia nvidia   2361 May  3 15:42 dxva2.h
+  4 -rw-rw-r-- 1 nvidia nvidia   1650 May  3 15:42 jni.h
+  4 -rw-rw-r-- 1 nvidia nvidia   2825 May  3 15:42 mediacodec.h
+  4 -rw-rw-r-- 1 nvidia nvidia   3763 May  3 15:42 qsv.h
+  4 -rw-rw-r-- 1 nvidia nvidia   2297 May  3 15:42 vaapi.h
+  8 -rw-rw-r-- 1 nvidia nvidia   5796 May  3 15:42 vdpau.h
+  8 -rw-rw-r-- 1 nvidia nvidia   4785 May  3 15:42 version.h
+  4 -rw-rw-r-- 1 nvidia nvidia   4029 May  3 15:42 videotoolbox.h
+  4 -rw-rw-r-- 1 nvidia nvidia   2285 May  3 15:42 vorbis_parser.h
+  8 -rw-rw-r-- 1 nvidia nvidia   6062 May  3 15:42 xvmc.h
+
+OtherLibsLinux/FastvideoSDK/libs/ffmpeg/inc/libavformat:
+total 152
+116 -rw-rw-r-- 1 nvidia nvidia 117558 May  3 15:42 avformat.h
+ 32 -rw-rw-r-- 1 nvidia nvidia  31557 May  3 15:42 avio.h
+  4 -rw-rw-r-- 1 nvidia nvidia   3781 May  3 15:42 version.h
+
+OtherLibsLinux/FastvideoSDK/libs/ffmpeg/inc/libavutil:
+total 640
+ 4 -rw-rw-r-- 1 nvidia nvidia  1673 May  3 15:42 adler32.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2269 May  3 15:42 aes_ctr.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1834 May  3 15:42 aes.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  4714 May  3 15:42 attributes.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5914 May  3 15:42 audio_fifo.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2355 May  3 15:42 avassert.h
+ 4 -rw-rw-r-- 1 nvidia nvidia   180 May  3 15:42 avconfig.h
+16 -rw-rw-r-- 1 nvidia nvidia 14095 May  3 15:42 avstring.h
+12 -rw-rw-r-- 1 nvidia nvidia  9576 May  3 15:42 avutil.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2285 May  3 15:42 base64.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2394 May  3 15:42 blowfish.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  7797 May  3 15:42 bprint.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2858 May  3 15:42 bswap.h
+12 -rw-rw-r-- 1 nvidia nvidia 10646 May  3 15:42 buffer.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2139 May  3 15:42 camellia.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2561 May  3 15:42 cast5.h
+12 -rw-rw-r-- 1 nvidia nvidia  9613 May  3 15:42 channel_layout.h
+20 -rw-rw-r-- 1 nvidia nvidia 16543 May  3 15:42 common.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5682 May  3 15:42 cpu.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  3137 May  3 15:42 crc.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2333 May  3 15:42 des.h
+12 -rw-rw-r-- 1 nvidia nvidia  8275 May  3 15:42 dict.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  3527 May  3 15:42 display.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  3235 May  3 15:42 downmix_info.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  6906 May  3 15:42 encryption_info.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5468 May  3 15:42 error.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5302 May  3 15:42 eval.h
+ 4 -rw-rw-r-- 1 nvidia nvidia   184 May  3 15:42 ffversion.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5899 May  3 15:42 fifo.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2565 May  3 15:42 file.h
+32 -rw-rw-r-- 1 nvidia nvidia 28932 May  3 15:42 frame.h
+12 -rw-rw-r-- 1 nvidia nvidia  8574 May  3 15:42 hash.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2886 May  3 15:42 hmac.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1461 May  3 15:42 hwcontext_cuda.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  6225 May  3 15:42 hwcontext_d3d11va.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  4673 May  3 15:42 hwcontext_drm.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2411 May  3 15:42 hwcontext_dxva2.h
+24 -rw-rw-r-- 1 nvidia nvidia 23027 May  3 15:42 hwcontext.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1203 May  3 15:42 hwcontext_mediacodec.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1557 May  3 15:42 hwcontext_qsv.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  3787 May  3 15:42 hwcontext_vaapi.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1360 May  3 15:42 hwcontext_vdpau.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1883 May  3 15:42 hwcontext_videotoolbox.h
+12 -rw-rw-r-- 1 nvidia nvidia 11530 May  3 15:42 imgutils.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1726 May  3 15:42 intfloat.h
+20 -rw-rw-r-- 1 nvidia nvidia 18398 May  3 15:42 intreadwrite.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2215 May  3 15:42 lfg.h
+12 -rw-rw-r-- 1 nvidia nvidia 11315 May  3 15:42 log.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2048 May  3 15:42 lzo.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1249 May  3 15:42 macros.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  3944 May  3 15:42 mastering_display_metadata.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  7945 May  3 15:42 mathematics.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2323 May  3 15:42 md5.h
+24 -rw-rw-r-- 1 nvidia nvidia 23597 May  3 15:42 mem.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1770 May  3 15:42 motion_vector.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  3621 May  3 15:42 murmur3.h
+36 -rw-rw-r-- 1 nvidia nvidia 35827 May  3 15:42 opt.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  7575 May  3 15:42 parseutils.h
+16 -rw-rw-r-- 1 nvidia nvidia 15830 May  3 15:42 pixdesc.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2071 May  3 15:42 pixelutils.h
+32 -rw-rw-r-- 1 nvidia nvidia 32761 May  3 15:42 pixfmt.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1400 May  3 15:42 random_seed.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5844 May  3 15:42 rational.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1882 May  3 15:42 rc4.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1607 May  3 15:42 replaygain.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2285 May  3 15:42 ripemd.h
+12 -rw-rw-r-- 1 nvidia nvidia 10318 May  3 15:42 samplefmt.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2560 May  3 15:42 sha512.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2505 May  3 15:42 sha.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  8024 May  3 15:42 spherical.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5250 May  3 15:42 stereo3d.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2035 May  3 15:42 tea.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  3666 May  3 15:42 threadmessage.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5325 May  3 15:42 timecode.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1800 May  3 15:42 time.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2617 May  3 15:42 timestamp.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5429 May  3 15:42 tree.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2245 May  3 15:42 twofish.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  4669 May  3 15:42 version.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2834 May  3 15:42 xtea.h
+
+OtherLibsLinux/FastvideoSDK/libs/ffmpeg/inc/libswresample:
+total 28
+24 -rw-rw-r-- 1 nvidia nvidia 21785 May  3 15:42 swresample.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1718 May  3 15:42 version.h
+
+OtherLibsLinux/FastvideoSDK/libs/ffmpeg/lib:
+total 4
+4 drwxr-xr-x 3 nvidia nvidia 4096 May  6 11:04 linux
+
+OtherLibsLinux/FastvideoSDK/libs/ffmpeg/lib/linux:
+total 4
+4 drwxr-xr-x 3 nvidia nvidia 4096 Jul  6 12:22 aarch64
+
+OtherLibsLinux/FastvideoSDK/libs/ffmpeg/lib/linux/aarch64:
+total 12664
+    0 lrwxrwxrwx 1 nvidia nvidia       16 May  6 11:08 libavcodec.so -> libavcodec.so.58
+    0 lrwxrwxrwx 1 nvidia nvidia       23 May  6 11:08 libavcodec.so.58 -> libavcodec.so.58.18.100
+10104 -rw-rw-r-- 1 nvidia nvidia 10343216 May  3 15:42 libavcodec.so.58.18.100
+    0 lrwxrwxrwx 1 nvidia nvidia       17 May  6 11:08 libavformat.so -> libavformat.so.58
+    0 lrwxrwxrwx 1 nvidia nvidia       24 May  6 11:08 libavformat.so.58 -> libavformat.so.58.12.100
+ 2120 -rw-rw-r-- 1 nvidia nvidia  2167272 May  3 15:42 libavformat.so.58.12.100
+    0 lrwxrwxrwx 1 nvidia nvidia       15 May  6 11:08 libavutil.so -> libavutil.so.56
+    0 lrwxrwxrwx 1 nvidia nvidia       22 May  6 11:08 libavutil.so.56 -> libavutil.so.56.14.100
+  356 -rw-rw-r-- 1 nvidia nvidia   363040 May  3 15:42 libavutil.so.56.14.100
+    0 lrwxrwxrwx 1 nvidia nvidia       18 May  6 11:08 libswresample.so -> libswresample.so.3
+    0 lrwxrwxrwx 1 nvidia nvidia       24 May  6 11:08 libswresample.so.3 -> libswresample.so.3.1.100
+   76 -rw-rw-r-- 1 nvidia nvidia    75952 May  3 15:42 libswresample.so.3.1.100
+    4 -rwxrwxr-x 1 nvidia nvidia      369 May  3 15:42 make_sl.sh
+    4 drwxr-xr-x 2 nvidia nvidia     4096 Jul  6 12:22 pkgconfig
+
+OtherLibsLinux/FastvideoSDK/libs/ffmpeg/lib/linux/aarch64/pkgconfig:
+total 24
+4 -rw-rw-r-- 1 nvidia nvidia 316 May  3 15:42 libavcodec.pc
+4 -rw-rw-r-- 1 nvidia nvidia 403 May  3 15:42 libavfilter.pc
+4 -rw-rw-r-- 1 nvidia nvidia 345 May  3 15:42 libavformat.pc
+4 -rw-rw-r-- 1 nvidia nvidia 264 May  3 15:42 libavutil.pc
+4 -rw-rw-r-- 1 nvidia nvidia 292 May  3 15:42 libswresample.pc
+4 -rw-rw-r-- 1 nvidia nvidia 285 May  3 15:42 libswscale.pc
+
+OtherLibsLinux/FastvideoSDK/libs/ffmpeg/src:
+total 0
+
+OtherLibsLinux/FastvideoSDK/libs/libexif:
+total 16
+4 -rw-rw-r-- 1 nvidia nvidia   77 May  3 15:42 how-to-build.txt
+4 drwxr-xr-x 3 nvidia nvidia 4096 May  6 11:04 inc
+4 drwxr-xr-x 3 nvidia nvidia 4096 Jul  6 12:22 lib
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 src
+
+OtherLibsLinux/FastvideoSDK/libs/libexif/inc:
+total 4
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 libexif
+
+OtherLibsLinux/FastvideoSDK/libs/libexif/inc/libexif:
+total 108
+ 4 -rw-rw-r-- 1 nvidia nvidia  1438 May  3 15:42 exif-byte-order.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  4721 May  3 15:42 exif-content.h
+12 -rw-rw-r-- 1 nvidia nvidia  8823 May  3 15:42 exif-data.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1433 May  3 15:42 exif-data-type.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  6215 May  3 15:42 exif-entry.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1939 May  3 15:42 exif-format.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  3403 May  3 15:42 exif.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1528 May  3 15:42 exif-ifd.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  4279 May  3 15:42 exif-loader.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  3390 May  3 15:42 exif-log.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2584 May  3 15:42 exif-mem.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  4256 May  3 15:42 exif-mnote-data.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  2572 May  3 15:42 exif-mnote-data-priv.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1147 May  3 15:42 exif-system.h
+12 -rw-rw-r-- 1 nvidia nvidia 10470 May  3 15:42 exif-tag.h
+ 8 -rw-rw-r-- 1 nvidia nvidia  5952 May  3 15:42 exif-utils.h
+ 4 -rw-rw-r-- 1 nvidia nvidia  1694 May  3 15:42 i18n.h
+ 4 -rw-rw-r-- 1 nvidia nvidia   164 May  3 15:42 _stdint.h
+
+OtherLibsLinux/FastvideoSDK/libs/libexif/lib:
+total 4
+4 drwxr-xr-x 3 nvidia nvidia 4096 May  6 11:04 linux
+
+OtherLibsLinux/FastvideoSDK/libs/libexif/lib/linux:
+total 4
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 aarch64
+
+OtherLibsLinux/FastvideoSDK/libs/libexif/lib/linux/aarch64:
+total 664
+  0 lrwxrwxrwx 1 nvidia nvidia     13 May  6 11:08 libexif.so -> libexif.so.12
+  0 lrwxrwxrwx 1 nvidia nvidia     17 May  6 11:08 libexif.so.12 -> libexif.so.12.3.2
+660 -rw-rw-r-- 1 nvidia nvidia 675536 May  3 15:42 libexif.so.12.3.2
+  4 -rwxrwxr-x 1 nvidia nvidia     83 May  3 15:42 make_sl.sh
+
+OtherLibsLinux/FastvideoSDK/libs/libexif/src:
+total 2064
+2064 -rw-rw-r-- 1 nvidia nvidia 2112363 May  3 15:42 libexif-0.6.20.zip
+
+OtherLibsLinux/FastvideoSDK/libs/libjpeg-turbo:
+total 16
+4 drwxr-xr-x 4 nvidia nvidia 4096 May  6 11:04 08-bit
+4 drwxr-xr-x 4 nvidia nvidia 4096 May  6 11:04 12-bit
+4 -rw-rw-r-- 1 nvidia nvidia  394 May  3 15:42 How-To Build.Linux.txt
+4 drwxr-xr-x 2 nvidia nvidia 4096 May  6 11:04 src
+
+OtherLibsLinux/FastvideoSDK/libs/libjpeg-turbo/08-bit:
+total 8
+4 drwxr-xr-x 3 nvidia nvidia 4096 May  6 11:04 include
+4 drwxr-xr-x 3 nvidia nvidia 4096 May  6 11:04 lib
+
+OtherLibsLinux/FastvideoSDK/libs/libjpeg-turbo/08-bit/include:
+total 4
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 linux
+
+OtherLibsLinux/FastvideoSDK/libs/libjpeg-turbo/08-bit/include/linux:
+total 164
+ 4 -rw-rw-r-- 1 nvidia nvidia  2031 May  3 15:42 jconfig.h
+16 -rw-rw-r-- 1 nvidia nvidia 15715 May  3 15:42 jerror.h
+16 -rw-rw-r-- 1 nvidia nvidia 14317 May  3 15:42 jmorecfg.h
+52 -rw-rw-r-- 1 nvidia nvidia 50281 May  3 15:42 jpeglib.h
+76 -rw-rw-r-- 1 nvidia nvidia 74651 May  3 15:42 turbojpeg.h
+
+OtherLibsLinux/FastvideoSDK/libs/libjpeg-turbo/08-bit/lib:
+total 4
+4 drwxr-xr-x 3 nvidia nvidia 4096 May  6 11:04 linux
+
+OtherLibsLinux/FastvideoSDK/libs/libjpeg-turbo/08-bit/lib/linux:
+total 4
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 aarch64
+
+OtherLibsLinux/FastvideoSDK/libs/libjpeg-turbo/08-bit/lib/linux/aarch64:
+total 456
+  0 lrwxrwxrwx 1 nvidia nvidia     12 May  6 11:08 libjpeg.so -> libjpeg.so.8
+  0 lrwxrwxrwx 1 nvidia nvidia     16 May  6 11:08 libjpeg.so.8 -> libjpeg.so.8.2.2
+452 -rw-rw-r-- 1 nvidia nvidia 459352 May  3 15:42 libjpeg.so.8.2.2
+  4 -rwxrwxr-x 1 nvidia nvidia     80 May  3 15:42 make_sl.sh
+
+OtherLibsLinux/FastvideoSDK/libs/libjpeg-turbo/12-bit:
+total 8
+4 drwxr-xr-x 3 nvidia nvidia 4096 May  6 11:04 include
+4 drwxr-xr-x 3 nvidia nvidia 4096 May  6 11:04 lib
+
+OtherLibsLinux/FastvideoSDK/libs/libjpeg-turbo/12-bit/include:
+total 4
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 linux
+
+OtherLibsLinux/FastvideoSDK/libs/libjpeg-turbo/12-bit/include/linux:
+total 164
+ 4 -rw-rw-r-- 1 nvidia nvidia  2038 May  3 15:42 jconfig.h
+16 -rw-rw-r-- 1 nvidia nvidia 15715 May  3 15:42 jerror.h
+16 -rw-rw-r-- 1 nvidia nvidia 14317 May  3 15:42 jmorecfg.h
+52 -rw-rw-r-- 1 nvidia nvidia 50281 May  3 15:42 jpeglib.h
+76 -rw-rw-r-- 1 nvidia nvidia 74651 May  3 15:42 turbojpeg.h
+
+OtherLibsLinux/FastvideoSDK/libs/libjpeg-turbo/12-bit/lib:
+total 4
+4 drwxr-xr-x 3 nvidia nvidia 4096 May  6 11:04 linux
+
+OtherLibsLinux/FastvideoSDK/libs/libjpeg-turbo/12-bit/lib/linux:
+total 4
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 aarch64
+
+OtherLibsLinux/FastvideoSDK/libs/libjpeg-turbo/12-bit/lib/linux/aarch64:
+total 328
+  0 lrwxrwxrwx 1 nvidia nvidia     15 May  6 12:07 libjpeg12.so -> libjpeg12.so.62
+  0 lrwxrwxrwx 1 nvidia nvidia     19 May  6 12:07 libjpeg12.so.62 -> libjpeg12.so.62.3.0
+324 -rw-rw-r-- 1 nvidia nvidia 330120 May  3 15:42 libjpeg12.so.62.3.0
+  4 -rwxrwxr-x 1 nvidia nvidia     91 May  3 15:42 make_sl.sh
+
+OtherLibsLinux/FastvideoSDK/libs/libjpeg-turbo/src:
+total 0
+
+OtherLibsLinux/FastvideoSDK/libs/libtiff:
+total 12
+4 drwxr-xr-x 4 nvidia nvidia 4096 Jul  6 12:22 include
+4 drwxr-xr-x 3 nvidia nvidia 4096 May  6 11:04 lib
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 src
+
+OtherLibsLinux/FastvideoSDK/libs/libtiff/include:
+total 8
+4 drwxr-xr-x 2 nvidia nvidia 4096 May  6 11:04 linux
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 win
+
+OtherLibsLinux/FastvideoSDK/libs/libtiff/include/linux:
+total 100
+ 4 -rw-rw-r-- 1 nvidia nvidia  3211 May  3 15:42 tiffconf.h
+48 -rw-rw-r-- 1 nvidia nvidia 47444 May  3 15:42 tiff.h
+24 -rw-rw-r-- 1 nvidia nvidia 24410 May  3 15:42 tiffio.h
+20 -rw-rw-r-- 1 nvidia nvidia 20107 May  3 15:42 tiffiop.h
+ 4 -rw-rw-r-- 1 nvidia nvidia   410 May  3 15:42 tiffvers.h
+
+OtherLibsLinux/FastvideoSDK/libs/libtiff/include/win:
+total 100
+ 4 -rw-rw-r-- 1 nvidia nvidia  3220 May  3 15:42 tiffconf.h
+48 -rw-rw-r-- 1 nvidia nvidia 47444 May  3 15:42 tiff.h
+24 -rw-rw-r-- 1 nvidia nvidia 24410 May  3 15:42 tiffio.h
+20 -rw-rw-r-- 1 nvidia nvidia 20107 May  3 15:42 tiffiop.h
+ 4 -rw-rw-r-- 1 nvidia nvidia   410 May  3 15:42 tiffvers.h
+
+OtherLibsLinux/FastvideoSDK/libs/libtiff/lib:
+total 4
+4 drwxr-xr-x 3 nvidia nvidia 4096 May  6 11:04 linux
+
+OtherLibsLinux/FastvideoSDK/libs/libtiff/lib/linux:
+total 4
+4 drwxr-xr-x 2 nvidia nvidia 4096 Jul  6 12:22 aarch64
+
+OtherLibsLinux/FastvideoSDK/libs/libtiff/lib/linux/aarch64:
+total 660
+  0 lrwxrwxrwx 1 nvidia nvidia     12 May  6 11:08 libtiff.so -> libtiff.so.5
+  0 lrwxrwxrwx 1 nvidia nvidia     16 May  6 11:08 libtiff.so.5 -> libtiff.so.5.7.0
+656 -rw-rw-r-- 1 nvidia nvidia 669208 May  3 15:42 libtiff.so.5.7.0
+  4 -rwxrwxr-x 1 nvidia nvidia     80 May  3 15:42 make_sl.sh
+
+OtherLibsLinux/FastvideoSDK/libs/libtiff/src:
+total 2764
+   4 -rw-rw-r-- 1 nvidia nvidia     661 May  3 15:42 how-to-build.txt
+2760 -rw-rw-r-- 1 nvidia nvidia 2824693 May  3 15:42 libtiff-4.3.0.zip

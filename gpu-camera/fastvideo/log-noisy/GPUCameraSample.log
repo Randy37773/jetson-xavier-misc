@@ -1,0 +1,33 @@
+xiAPI: ---- xiOpenDevice API:V4.25.14.00 started ----
+xiAPI: SAL_AR1820HS_GetDeviceFirmwareVersion 0 00.44 
+xiAPI: SAL_AR1820HS_GetDeviceFirmwareVersion 1 05.00 
+xiAPI: EAL_IF_xiFAPI_Top::InitializeDevice sn:UPCBS2221027 name:MU181CR-ON
+xiAPI: XiApiToGentlParamModel::InitializeParameters - Warning: Digital lines have no sampling offsets defined
+xiAPI: XiApiToGentlParamModel Auto bandwidth measurement finished (404MBps). Safe limit set to: 323MBps
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -10009, addr:x201380
+xiAPI: ---- Device opened. Model:MU181CR-ON SN:UPCBS2221027 FwF1:00.44 API:V4.25.14.00 ----
+xiAPI: xiFAPI_Device::AcquisitionStop - ignored: acquisition is not running
+Initialising CUDAProcessorBase...
+Created fastRawUnpackerCreate, free mem	3418427392
+Created hDeviceToHostRawAdapter, free mem	3349954560
+Created SAM, free mem	3349446656
+Created hSamMux, free mem	3349446656
+Created hLinearizationLut, free mem	3349192704
+Created hDeviceToHostLinRawAdapter, free mem	3349192704
+Created hWhiteBalance, free mem	3348938752
+Created BPC, free mem	3348557824
+Created hBpcMux, free mem	3348557824
+Created hDebayer, free mem	3348049920
+Created hOutLut, free mem	3275780096
+Created hDeviceToHost16Adapter, free mem	3167219712
+Created h16to8Transform, free mem	3112980480
+Created hDeviceToHostAdapter, free mem	3058769920
+Created hExportToDevice, free mem	3004497920
+Created hGLBuffer, free mem	2950242304
+Created hMjpegEncoder, free mem	2362691584
+hMjpegEncoder allocated 441 MBytes
+xiAPI: xiFAPI_Device::AllocateBuffers Allocating buffers. Count:9 OneBuff:26393 KiB All:256 MiB Frm:x8200030c
+xiAPI: Failed to change thread scheduler, check user limit for realtime priority.
+malloc_consolidate(): invalid chunk size
+Aborted (core dumped)
+
