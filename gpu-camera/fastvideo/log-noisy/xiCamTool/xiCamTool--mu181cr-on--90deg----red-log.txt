@@ -1,0 +1,569 @@
+xiCamTool 
+Crash reporting is not built in.
+xiAPI: ---- xiOpenDevice API:V4.25.14.00 started ----
+xiAPI: SAL_AR1820HS_GetDeviceFirmwareVersion 0 00.44 
+xiAPI: SAL_AR1820HS_GetDeviceFirmwareVersion 1 05.00 
+xiAPI: EAL_IF_xiFAPI_Top::InitializeDevice sn:UPCBS2221027 name:MU181CR-ON
+xiAPI: XiApiToGentlParamModel::InitializeParameters - Warning: Digital lines have no sampling offsets defined
+xiAPI: XiApiToGentlParamModel Auto bandwidth measurement finished (404MBps). Safe limit set to: 323MBps
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -10009, addr:x201380
+xiAPI: ---- Device opened. Model:MU181CR-ON SN:UPCBS2221027 FwF1:00.44 API:V4.25.14.00 ----
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:4220
+xiAPI: xiFAPI_Device::GetParam ERROR:106 par:device_sens_sn
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 436 :  "xiApi_GetParamString(): xiGetParamString(device_sens_sn) returned 106"
+xiAPI: FGTL_GetParam_from_CAL error from CAL: -1003, addr:x201200
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp GetAcquisitionTransportBufferSizeBytes/Line:6275
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:5011
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:acq_transport_buffer_size
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(acq_transport_buffer_size) returned 26"
+xiAPI: FGTL_GetParam_from_CAL error from CAL: -1003, addr:x201204
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp GetAcquisitionTransportBufferSizeBytes_Min/Line:6299
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:5023
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:acq_transport_buffer_size:min
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(acq_transport_buffer_size:min) returned 26"
+0x7f94cacac0 ../../src/xiViewer/xiCore/CameraCapsLoader.cpp L 250 :  "cameraXML: Cannot find invalidator widthtReg for framerate"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> SCM_ctx.handlers.GetImageCorrectionSelector in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:1659
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp GetColumnBlackOffsetCorrection_Handler/Line:3373
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetColumnBlackOffsetCorrection/Line:13193
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:5445
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:column_black_offset_correction
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(column_black_offset_correction) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> SCM_ctx.handlers.GetImageCorrectionSelector in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:1659
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp GetColumnFpnCorrection_Handler/Line:3287
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetColumnFpnCorrection/Line:13001
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:5383
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:column_fpn_correction
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(column_fpn_correction) returned 26"
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetCompressionRegionGain_Min/Line:14894
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:6077
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(compression_region_gain:min) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetCompressionRegionGain_Max/Line:14882
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:6071
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(compression_region_gain:max) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetCompressionRegionGain/Line:14867
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(compression_region_gain) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetCompressionRegionSelector/Line:14673
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetCompressionRegionSelector/Line:14673
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetCompressionRegionStart_Min/Line:14791
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:6046
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(compression_region_start:min) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetCompressionRegionStart_Max/Line:14779
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:6040
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(compression_region_start:max) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetCompressionRegionStart/Line:14764
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(compression_region_start) returned 12"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_EN is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3703
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_en
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_en) returned 26"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_POL is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3796
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_pol
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_pol) returned 26"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge_Min/Line:842
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3746
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0:min) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge_Max/Line:835
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3740
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0:max) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge/Line:824
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge_Min/Line:915
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3777
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1:min) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge_Max/Line:908
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3771
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1:max) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge/Line:897
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetDualADCGainRatio_Min/Line:14496
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:5953
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(dual_adc_gain_ratio:min) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetDualADCGainRatio_Max/Line:14484
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:5947
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(dual_adc_gain_ratio:max) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetDualADCGainRatio/Line:14469
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(dual_adc_gain_ratio) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetDualADCMode/Line:14378
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetDualADCMode/Line:14378
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetDualADCThreshold/Line:14577
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dual_adc_threshold) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetExposureTimeSelector/Line:164
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetExposureTimeSelector/Line:164
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(hdr) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetImageArea/Line:14282
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetImageArea/Line:14282
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetInterlineExposureMode/Line:2522
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetInterlineExposureMode/Line:2522
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3672
+xiAPI: xiFAPI_Device::GetParam ERROR:11 par:led_mode
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3672
+xiAPI: xiFAPI_Device::GetParam ERROR:11 par:led_mode
+0x7f94cacac0 ../../src/xiViewer/xiCore/CameraParameters.cpp L 298 :  "CxCameraParam::readFromCamera(): Value 1 returned from xiApi not found in enum definition of led_selector"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensApertureValue_Min in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:3896
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensApertureValue_Min/Line:8918
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3870
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_aperture_value:min
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(lens_aperture_value:min) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensApertureValue_Max in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:3906
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensApertureValue_Max/Line:8906
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3864
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_aperture_value:max
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(lens_aperture_value:max) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensApertureValue in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:3885
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensApertureValue/Line:8891
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3858
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_aperture_value
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(lens_aperture_value) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensFeature_Min in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:4035
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensFeature_Min/Line:9629
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:4087
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_feature:min
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(lens_feature:min) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensFeature_Max in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:4045
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensFeature_Max/Line:9617
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:4081
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_feature:max
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(lens_feature:max) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensFeature in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:4024
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensFeature/Line:9602
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:4075
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_feature
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(lens_feature) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensFeatureSelector in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:4013
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensFeatureSelector/Line:9511
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:4044
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_feature_selector
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensFeatureSelector in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:4013
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensFeatureSelector/Line:9511
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:4044
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_feature_selector
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensFocalLength_Min in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:3992
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensFocalLength_Min/Line:9433
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:4025
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_focal_length:min
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(lens_focal_length:min) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensFocalLength_Max in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:4002
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensFocalLength_Max/Line:9421
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:4019
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_focal_length:max
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(lens_focal_length:max) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensFocalLength in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:3981
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensFocalLength/Line:9406
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:4013
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_focal_length
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(lens_focal_length) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensFocusDistance_Min in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:3960
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensFocusDistance_Min/Line:9326
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3994
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_focus_distance:min
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(lens_focus_distance:min) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensFocusDistance_Max in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:3970
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensFocusDistance_Max/Line:9314
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3988
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_focus_distance:max
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(lens_focus_distance:max) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensFocusDistance in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:3949
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensFocusDistance/Line:9299
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3982
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_focus_distance
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 380 :  "xiApi_GetParamFloat(): xiGetParamFloat(lens_focus_distance) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensFocusMovementValue_Min in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:3928
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensFocusMovementValue_Min/Line:9128
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3932
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_focus_movement_value:min
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(lens_focus_movement_value:min) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensFocusMovementValue_Max in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:3938
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensFocusMovementValue_Max/Line:9116
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3926
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_focus_movement_value:max
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(lens_focus_movement_value:max) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensFocusMovementValue in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:3917
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensFocusMovementValue/Line:9101
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3920
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_focus_movement_value
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(lens_focus_movement_value) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> LAL_ctx.handlers.GetLensMode in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:3874
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetLensMode/Line:8800
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3827
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:lens_mode
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(lens_mode) returned 26"
+xiAPI: Error: parameter XI_PRM_REGION_MODE is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:1047
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:region_mode
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(region_mode) returned 26"
+xiAPI: Error: parameter XI_PRM_REGION_SELECTOR is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:1028
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:region_selector:min
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(region_selector:min) returned 26"
+xiAPI: Error: parameter XI_PRM_REGION_SELECTOR is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:1022
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:region_selector:max
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(region_selector:max) returned 26"
+xiAPI: Error: parameter XI_PRM_REGION_SELECTOR is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:1034
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:region_selector:inc
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(region_selector:inc) returned 26"
+xiAPI: Error: parameter XI_PRM_REGION_SELECTOR is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:1016
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:region_selector
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(region_selector) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> SCM_ctx.handlers.GetImageCorrectionSelector in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:1659
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp GetRowBlackOffsetCorrection_Handler/Line:3413
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetRowBlackOffsetCorrection/Line:13289
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:5476
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:row_black_offset_correction
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(row_black_offset_correction) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> SCM_ctx.handlers.GetImageCorrectionSelector in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:1659
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp GetRowFpnCorrection_Handler/Line:3327
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h GetRowFpnCorrection/Line:13097
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:5414
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:row_fpn_correction
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(row_fpn_correction) returned 26"
+0x7f94cacac0 ../../src/xiViewer/xiCore/CameraParameters.cpp L 298 :  "CxCameraParam::readFromCamera(): Value 1 returned from xiApi not found in enum definition of sensor_taps"
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x27364e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+xiAPI: USL_ReadPresetsFromCameraStorage - unknown error during user presets parsing
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1009, addr:x20141e
+0x7f94cacac0 ../../src/xiViewer/xiCore/CameraParameters.cpp L 298 :  "CxCameraParam::readFromCamera(): Value 0 returned from xiApi not found in enum definition of user_set_selector"
+xiAPI: xiParametersContextListExport error: buffer size is too small
+xiAPI: Error: parameter XI_PRM_REGION_MODE is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:1047
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:region_mode
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(region_mode) returned 26"
+xiAPI: Error: parameter XI_PRM_REGION_SELECTOR is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:1016
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:region_selector
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(region_selector) returned 26"
+0x7f94cacac0 ../../src/xiViewer/xiCore/CameraParameters.cpp L 439 :  "CxCameraParam::updateIfInvalidatedWithParam(): Value 1 not found in enum definition of sensor_taps"
+xiAPI: Error: parameter XI_PRM_REGION_MODE is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:1047
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:region_mode
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(region_mode) returned 26"
+xiAPI: Error: parameter XI_PRM_REGION_SELECTOR is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:1016
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:region_selector
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(region_selector) returned 26"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_EN is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3703
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_en
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_en) returned 26"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_POL is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3796
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_pol
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_pol) returned 26"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge/Line:824
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge/Line:897
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1) returned 12"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_EN is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3703
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_en
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_en) returned 26"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_POL is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3796
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_pol
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_pol) returned 26"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge/Line:824
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge/Line:897
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1) returned 12"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_EN is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3703
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_en
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_en) returned 26"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_POL is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3796
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_pol
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_pol) returned 26"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge/Line:824
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge/Line:897
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1) returned 12"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_EN is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3703
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_en
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_en) returned 26"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_POL is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3796
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_pol
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_pol) returned 26"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge/Line:824
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge/Line:897
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1) returned 12"
+xiAPI: SIPI_CMS: Input profile file hasn't been set
+xiAPI: SIPI_CMS: Input profile file hasn't been set
+xiAPI: SAL_DefH SetMultiSlopeKneePointCount Value:1 - Error: Not implemented
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1003, addr:x272030
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp SetHDR_KNEEPOINT_COUNT_Handler/Line:647
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h SetHDR_KNEEPOINT_COUNT/Line:13581
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Setters.gen.h SetParam/Line:1765
+xiAPI: xiSetParam - error: setting parameter hdr_kneepoint_count
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 294 :  "xiApi_SetParamInt(): xiSetParamInt(hdr_kneepoint_count, 1) returned 26"
+xiAPI: SAL_DefH SetMultiSlopeKneePointSelector Value:1 - Error: Not implemented
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1003, addr:x272040
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp SetHDRTimeSlope1_Handler/Line:656
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h SetHDRTimeSlope1/Line:13672
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Setters.gen.h SetParam/Line:1775
+xiAPI: xiSetParam - error: setting parameter hdr_t1
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 294 :  "xiApi_SetParamInt(): xiSetParamInt(hdr_t1, 60) returned 26"
+xiAPI: SAL_DefH SetMultiSlopeKneePointSelector Value:2 - Error: Not implemented
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1003, addr:x272040
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp SetHDRTimeSlope2_Handler/Line:667
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h SetHDRTimeSlope2/Line:13763
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Setters.gen.h SetParam/Line:1785
+xiAPI: xiSetParam - error: setting parameter hdr_t2
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 294 :  "xiApi_SetParamInt(): xiSetParamInt(hdr_t2, 80) returned 26"
+xiAPI: SAL_DefH SetMultiSlopeKneePointSelector Value:1 - Error: Not implemented
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1003, addr:x272040
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp SetHDRKnee1Percent_Handler/Line:678
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h SetHDRKnee1Percent/Line:13854
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Setters.gen.h SetParam/Line:1795
+xiAPI: xiSetParam - error: setting parameter hdr_kneepoint1
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 294 :  "xiApi_SetParamInt(): xiSetParamInt(hdr_kneepoint1, 40) returned 26"
+xiAPI: SAL_DefH SetMultiSlopeKneePointSelector Value:2 - Error: Not implemented
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1003, addr:x272040
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp SetHDRKnee2Percent_Handler/Line:689
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h SetHDRKnee2Percent/Line:13945
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Setters.gen.h SetParam/Line:1805
+xiAPI: xiSetParam - error: setting parameter hdr_kneepoint2
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 294 :  "xiApi_SetParamInt(): xiSetParamInt(hdr_kneepoint2, 60) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> SCM_ctx.handlers.GetImageCorrectionSelector in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:1659
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp SetColumnFpnCorrection_Handler/Line:3269
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h SetColumnFpnCorrection/Line:12964
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Setters.gen.h SetParam/Line:1685
+xiAPI: xiSetParam - error: setting parameter column_fpn_correction
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 294 :  "xiApi_SetParamInt(): xiSetParamInt(column_fpn_correction, 1) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> SCM_ctx.handlers.GetImageCorrectionSelector in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:1659
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp SetRowFpnCorrection_Handler/Line:3309
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h SetRowFpnCorrection/Line:13060
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Setters.gen.h SetParam/Line:1695
+xiAPI: xiSetParam - error: setting parameter row_fpn_correction
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 294 :  "xiApi_SetParamInt(): xiSetParamInt(row_fpn_correction, 1) returned 26"
+xiAPI: xiFGenTL Fatal error: Handler not implemented: cal -> SCM_ctx.handlers.GetImageCorrectionSelector in:../API/xiGenTL/Layer_03_bottom/xigentl_to_CAL_Getters.gen.h FGTL_GetParam_from_CAL/Line:1659
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp SetRowBlackOffsetCorrection_Handler/Line:3395
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h SetRowBlackOffsetCorrection/Line:13252
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Setters.gen.h SetParam/Line:1715
+xiAPI: xiSetParam - error: setting parameter row_black_offset_correction
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 294 :  "xiApi_SetParamInt(): xiSetParamInt(row_black_offset_correction, 1) returned 26"
+TIFFOpen: : No such file or directory.
+xiAPI: SIPI_FlatFieldCorrection: Couldn't open dark field input file
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers.cpp SetParam/Line:258
+xiAPI: xiSetParam - error: setting parameter ffc_dark_field_file_name
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 336 :  "xiApi_SetParamString(): xiSetParamString(ffc_dark_field_file_name, ) returned 101"
+TIFFOpen: : No such file or directory.
+xiAPI: SIPI_FlatFieldCorrection: Couldn't open flat field input file
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers.cpp SetParam/Line:251
+xiAPI: xiSetParam - error: setting parameter ffc_flat_field_file_name
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 336 :  "xiApi_SetParamString(): xiSetParamString(ffc_flat_field_file_name, ) returned 101"
+QObject::connect: No such slot CxCameraSettingsForm::verifyActiveShadingAfterParamsChanged()
+QObject::connect:  (receiver name: 'CxCameraSettingsForm')
+xiAPI: SAL_DefH SetDPParamSelector Value:7 - Error: Not implemented
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1003, addr:x273190
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h SetDataPipeParamSelector/Line:17731
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Setters.gen.h SetParam/Line:2225
+xiAPI: xiSetParam - error: setting parameter dp_param_selector
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 294 :  "xiApi_SetParamInt(): xiSetParamInt(dp_param_selector, 7) returned 26"
+QLayout: Attempting to add QLayout "" to QWidget "", which already has a layout
+bool QCPLayoutGrid::addElement(int, int, QCPLayoutElement*) There is already an element in the specified row/column: 0 1
+xiAPI: SAL_DefH SetDPParamSelector Value:7 - Error: Not implemented
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1003, addr:x273190
+xiAPI: xiAPI error: Expected XI_OK in:../Include/xiFAPI/camera_model/XiApiToGentlParamModel-gen.h SetDataPipeParamSelector/Line:17731
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Setters.gen.h SetParam/Line:2225
+xiAPI: xiSetParam - error: setting parameter dp_param_selector
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 294 :  "xiApi_SetParamInt(): xiSetParamInt(dp_param_selector, 7) returned 26"
+QLayout: Attempting to add QLayout "" to QWidget "", which already has a layout
+Program started.
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -1003, addr:x201200
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/XiApiToGentlParamModel.cpp SetAcquisitionTransportBufferSizeBytes/Line:6248
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Setters.gen.h SetParam/Line:1565
+xiAPI: xiSetParam - error: setting parameter acq_transport_buffer_size
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 294 :  "xiApi_SetParamInt(): xiSetParamInt(acq_transport_buffer_size, 127) returned 26"
+xiAPI: xiFAPI_Device::AllocateBuffers Allocating buffers. Count:39 OneBuff:6599 KiB All:256 MiB Frm:x8200030c
+xiAPI: SIPI_CMS: Input profile file hasn't been set
+xiAPI: Failed to change thread scheduler, check user limit for realtime priority.
+xiAPI: xiParametersContextListExport error: buffer size is too small
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_EN is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3703
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_en
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_en) returned 26"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_POL is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3796
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_pol
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_pol) returned 26"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge/Line:824
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge/Line:897
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1) returned 12"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_EN is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3703
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_en
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_en) returned 26"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_POL is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3796
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_pol
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_pol) returned 26"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge/Line:824
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge/Line:897
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1) returned 12"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_EN is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3703
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_en
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_en) returned 26"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_POL is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3796
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_pol
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_pol) returned 26"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge/Line:824
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge/Line:897
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1) returned 12"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_EN is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3703
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_en
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_en) returned 26"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_POL is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3796
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_pol
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_pol) returned 26"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge/Line:824
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge/Line:897
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1) returned 12"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_EN is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3703
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_en
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_en) returned 26"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_POL is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3796
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_pol
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_pol) returned 26"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge/Line:824
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge/Line:897
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1) returned 12"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_EN is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3703
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_en
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_en) returned 26"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_POL is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3796
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_pol
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_pol) returned 26"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge/Line:824
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge/Line:897
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1) returned 12"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_EN is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3703
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_en
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_en) returned 26"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_POL is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3796
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_pol
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_pol) returned 26"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge/Line:824
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge/Line:897
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1) returned 12"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_EN is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3703
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_en
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_en) returned 26"
+xiAPI: Error: parameter XI_PRM_DEBOUNCE_POL is not implemented in API
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/interfaces/02_mid/xifapi_Handlers_Getters.gen.h GetParamInternal/Line:3796
+xiAPI: xiFAPI_Device::GetParam ERROR:26 par:dbnc_pol
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_pol) returned 26"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceFallingEdge/Line:824
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t0) returned 12"
+xiAPI: xiAPI error: Expected XI_OK in:../API/xiFAPI/camera_model/xg_model_digital_lines.cpp GetGPIDebounceRisingEdge/Line:897
+0x7f94cacac0 ../../src/xiViewer/xiCore/xiApiWrapper.cpp L 357 :  "xiApi_GetParamInt(): xiGetParamInt(dbnc_t1) returned 12"
+xiAPI: xiCloseDevice
+xiAPI: SAL_AR1820HS_DisableSensor
+Segmentation fault (core dumped)
