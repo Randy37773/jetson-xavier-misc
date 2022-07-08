@@ -1,0 +1,17 @@
+.:
+total 46124
+ 1248 -rwxrwxr-x 1 nvidia nvidia  1276104 Jul  6 13:18 GPUCameraSample
+    0 -rw-rw-r-- 1 nvidia nvidia        0 Jul  8 04:54 gpu-camera-sample--GPUCameraSampla_Arm64--release.txt
+    4 -rw-rw-r-- 1 nvidia nvidia     1748 Jul  8 04:42 GPUCameraSample.log
+    4 -rw-rw-r-- 1 nvidia nvidia       60 Jul  6 13:18 GPUCameraSample.sh
+    0 lrwxrwxrwx 1 nvidia nvidia       25 Jul  6 13:18 libfastvideo_denoise.so -> libfastvideo_denoise.so.2
+    4 lrwxrwxrwx 1 nvidia nvidia      146 Jul  7 07:00 libfastvideo_sdk.so -> /home/nvidia/gpu-camera/venv01/Sourcen/extern/gpu-camera-sample/OtherLibsLinux/FastvideoSDK/fastvideo_sdk/lib/libfastvideo_sdk.so.0.17.6.1.0170601
+44520 -rw-r--r-- 1 nvidia nvidia 45585512 Jul  7 07:02 libfastvideo_sdk.so.18
+    4 lrwxrwxrwx 1 nvidia nvidia      106 Jul  7 07:29 libfastvideo_sdk-trial.so -> /home/nvidia/gpu-camera/venv01/Sourcen/extern/trial/fastvideo_sdk/lib/libfastvideo_sdk.so.0.17.6.1.0170601
+  332 -rwxrwxr-x 1 nvidia nvidia   336360 Jul  6 13:19 RtspPlayer
+    4 -rw-rw-r-- 1 nvidia nvidia       55 Jul  6 13:19 RtspPlayer.sh
+    4 drwxr-xr-x 2 nvidia nvidia     4096 Jul  6 13:18 xcbglintegrations
+
+./xcbglintegrations:
+total 68
+68 -rw-r--r-- 1 nvidia nvidia 69424 Jul  6 13:18 libqxcb-egl-integration.so
