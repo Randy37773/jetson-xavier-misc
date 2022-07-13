@@ -1,0 +1,47 @@
+xiAPI: ---- xiOpenDevice API:V4.25.14.00 started ----
+xiAPI: SAL_AR1820HS_GetDeviceFirmwareVersion 0 00.44 
+xiAPI: SAL_AR1820HS_GetDeviceFirmwareVersion 1 05.00 
+xiAPI: EAL_IF_xiFAPI_Top::InitializeDevice sn:UPCBS2221027 name:MU181CR-ON
+xiAPI: XiApiToGentlParamModel::InitializeParameters - Warning: Digital lines have no sampling offsets defined
+xiAPI: XiApiToGentlParamModel Auto bandwidth measurement finished (404MBps). Safe limit set to: 323MBps
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -10009, addr:x201380
+xiAPI: ---- Device opened. Model:MU181CR-ON SN:UPCBS2221027 FwF1:00.44 API:V4.25.14.00 ----
+xiAPI: xiFAPI_Device::AcquisitionStop - ignored: acquisition is not running
+Initialising CUDAProcessorBase...
+Created fastRawUnpackerCreate, free mem	4666871808
+Created hDeviceToHostRawAdapter, free mem	4599160832
+Created SAM, free mem	4598652928
+Created hSamMux, free mem	4598652928
+Created hLinearizationLut, free mem	4598398976
+Created hDeviceToHostLinRawAdapter, free mem	4598398976
+Created hWhiteBalance, free mem	4598145024
+Created BPC, free mem	4597764096
+Created hBpcMux, free mem	4597764096
+Created hDebayer, free mem	4597764096
+Created hOutLut, free mem	4597764096
+Created hDeviceToHost16Adapter, free mem	4535701504
+Created h16to8Transform, free mem	4481318912
+Created hDeviceToHostAdapter, free mem	4427079680
+Created hExportToDevice, free mem	4372824064
+Created hGLBuffer, free mem	4318711808
+Created hMjpegEncoder, free mem	3728044032
+CUDAProcessorBase::freeFilters
+Destroyed hRawUnpacker, free mem	3700916224
+Destroyed hSam, free mem	3700916224
+Destroyed hSamMux, free mem	3700916224
+Destroyed hBpc, free mem	3700916224
+Destroyed hBpcMux, free mem	3700916224
+Destroyed hLinearizationLut, free mem	3701092352
+Destroyed hWhiteBalance, free mem	3701092352
+Destroyed hDebayer, free mem	3701268480
+Destroyed hDeviceToHost16Adapter, free mem	3701444608
+Destroyed hDeviceToHostRawAdapter, free mem	3701444608
+Destroyed hDeviceToHostLinRawAdapter, free mem	3701620736
+Destroyed hOutLut, free mem	3701620736
+Destroyed h16to8Transform, free mem	3701796864
+Destroyed hDeviceToHostAdapter, free mem	3701796864
+Destroyed hMjpegEncoder, free mem	4029513728
+Destroyed jfifInfo.h_Bytestream
+xiAPI: xiFAPI_Device::AllocateBuffers Allocating buffers. Count:9 OneBuff:26393 KiB All:256 MiB Frm:x8200030c
+xiAPI: Failed to change thread scheduler, check user limit for realtime priority.
+CUDAProcessorBase::freeFilters
