@@ -1,5 +1,53 @@
 Contact Informations For support requests: support@forecr.io  +90 312 484 85 76
 
+camera
+
+
+camera-cuda
+/resources/11700778_SW_Baumer_neoAPI_PY_Linux_aarch64/11700778_SW_Baumer_neoAPI_PY_Linux_aarch64_v1.0.0/Baumer_neoAPI-1.0.0-lin-aarch64-python/examples/zerocopy.py
+
+
+python c++/c wrapping
+cppyy:______  https://cppyy.readthedocs.io/en/latest/installation.html
+pybind11:... https://github.com/pybind/pybind11
+	     https://pybind11.readthedocs.io/en/latest/
+	     https://pybind11.readthedocs.io/_/downloads/en/latest/pdf/
+	     https://pybind11.readthedocs.io/en/stable/basics.html
+	      https://github.com/tdegeus/pybind11_examples
+	      https://github.com/pybind/cmake_example
+	      https://github.com/edmBernard/pybind11_opencv_numpy/blob/master/ndarray_converter.cpp
+	      
+Python C-API: https://docs.python.org/3/c-api/index.html#c-api-index
+       	      https://docs.python.org/3/extending/extending.html
+PyCuda:..... https://documen.tician.de/pycuda/
+	     https://documen.tician.de/pycuda/tutorial.html
+	     https://github.com/inducer/pycuda
+cmake:_______ https://riptutorial.com/Download/cmake.pdf
+	      (https://moodle.rrze.uni-erlangen.de/pluginfile.php/13528/mod_resource/content/7/MartinOhlerich_MakeCMakeTutorial-2020-v3.pdf)
+	      https://lrita.github.io/images/posts/cplusplus/mastering-cmake.pdf
+	      (https://cliutils.gitlab.io/modern-cmake/modern-cmake.pdf)
+	      ! https://db.in.tum.de/teaching/ss20/c++praktikum/slides/lecture-11.pdf?lang=de
+C++:........ https://www.ipb.uni-bonn.de/wp-content/uploads/2018/05/lecture_2.pdf	      
+
+
+jetson camera framework
+fastvideo:.. https://www.fastcompression.com/blog/jetson-image-processing.htm
+ximea:_______ https://www.ximea.com/support/wiki/apis/Jetson_Image_Processing
+	      https://www.ximea.com/support/wiki/apis/Using_OpenCV_with_CUDA_on_the_Jetson_TX2
+	       https://www.ximea.com/support/attachments/download/12145/openCVDemosaic.tar
+	      https://www.ximea.com/support/wiki/apis/XiAPI_Image_Data_Flow
+	      https://www.ximea.com/support/wiki/apis/xiapi_manual
+gstreamer:.. https://gstreamer.freedesktop.org/documentation/nvcodec/index.html
+jetson-utils: https://github.com/dusty-nv/jetson-utils/issues
+(gpumap:)___ (https://pypi.org/project/gpumap)
+(CUDA:)..... (https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html)
+	     https://docs.nvidia.com/cuda/gpudirect-rdma/index.html
+	     https://docs.nvidia.com/cuda/gpudirect-rdma/index.html#pinning-gpu-memory
+	     https://docs.nvidia.com/cuda/gpudirect-rdma/index.html#unpinning-gpu-memory
+	     (https://docs.nvidia.com/cuda/cuda-runtime-api/group__CUDART__INTEROP.html)
+	     
+
+
 
 opencv-cuda
 https://forums.developer.nvidia.com/t/opencv-cuda-python3-bindings/219019
