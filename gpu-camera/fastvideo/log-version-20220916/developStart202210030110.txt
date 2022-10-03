@@ -1,0 +1,51 @@
+QXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled
+QXcbIntegration: Cannot create platform OpenGL context, neither GLX nor EGL are enabled
+QOpenGLWindow::beginPaint: Failed to create context
+QOpenGLWindow::beginPaint: Failed to make context current
+xiAPI: ---- xiOpenDevice API:V4.25.15.00 started ----
+xiAPI: SAL_AR1820HS_GetDeviceFirmwareVersion 0 00.44 
+xiAPI: SAL_AR1820HS_GetDeviceFirmwareVersion 1 05.00 
+xiAPI: EAL_IF_xiFAPI_Top::InitializeDevice sn:UPCBS2221041 name:MU181CR-ON
+xiAPI: XiApiToGentlParamModel::InitializeParameters - Warning: Digital lines have no sampling offsets defined
+xiAPI: XiApiToGentlParamModel Auto bandwidth measurement finished (404MBps). Safe limit set to: 323MBps
+xiAPI: FGTL_SetParam_to_CAL error from CAL: -10009, addr:x201380
+nvbuf_utils: Could not get EGL display connection
+xiAPI: ---- Device opened. Model:MU181CR-ON SN:UPCBS2221041 FwF1:00.44 API:V4.25.15.00 ----
+xiAPI: xiFAPI_Device::AcquisitionStop - ignored: acquisition is not running
+Initialising CUDAProcessorBase...
+Created hHostToDeviceAdapter, free mem	2632384512
+Created hDeviceToHostRawAdapter, free mem	2563579904
+Created SAM, free mem	2562818048
+Created hSamMux, free mem	2562818048
+Created hLinearizationLut, free mem	2562564096
+Created hDeviceToHostLinRawAdapter, free mem	2562310144
+Created hWhiteBalance, free mem	2562310144
+Created BPC, free mem	2495016960
+Created hBpcMux, free mem	2495016960
+Created hDebayer, free mem	2349871104
+Created hOutLut, free mem	2241040384
+Created hDeviceToHost16Adapter, free mem	2136801280
+Created h16to8Transform, free mem	2082418688
+Created hDeviceToHostAdapter, free mem	2028417024
+Created hExportToDevice, free mem	1974288384
+Created hGLBuffer, free mem	1920159744
+Created hMjpegEncoder, free mem	1329868800
+hMjpegEncoder allocated 441 MBytes
+xiAPI: xiFAPI_Device::AllocateBuffers Allocating buffers. Count:9 OneBuff:26393 KiB All:256 MiB Frm:x8200030c
+CUDAProcessorBase::freeFilters
+Destroyed hHostToDeviceAdapter, free mem	1218015232
+Destroyed hSam, free mem	1218015232
+Destroyed hSamMux, free mem	1218015232
+Destroyed hBpc, free mem	1218015232
+Destroyed hBpcMux, free mem	1218015232
+Destroyed hLinearizationLut, free mem	1218015232
+Destroyed hWhiteBalance, free mem	1218191360
+Destroyed hDebayer, free mem	1284591616
+Destroyed hDeviceToHost16Adapter, free mem	1392910336
+Destroyed hDeviceToHostRawAdapter, free mem	1429016576
+Destroyed hDeviceToHostLinRawAdapter, free mem	1465122816
+Destroyed hOutLut, free mem	1573441536
+Destroyed h16to8Transform, free mem	1627688960
+Destroyed hDeviceToHostAdapter, free mem	1681760256
+Destroyed hMjpegEncoder, free mem	2199945216
+Destroyed jfifInfo.h_Bytestream
