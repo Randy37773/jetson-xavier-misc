@@ -3,11 +3,11 @@ problems, solutions, logs while trying to tame jetson-xavier
 
 * in order to increas usb-buffer-size to max:
 
-$sudo su
+     $sudo su
 
-$ crontab -e
+     $ crontab -e
 
-insert this
+     insert this
 
-@reboot echo 0 > /sys/module/usbcore/parameters/usbfs_memory_mb
+     @reboot echo 0 > /sys/module/usbcore/parameters/usbfs_memory_mb
 
